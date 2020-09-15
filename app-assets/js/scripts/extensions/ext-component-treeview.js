@@ -179,9 +179,9 @@ $(document).ready(function () {
   // Tags as Badges options define here
   $('#tags-badge-treeview').treeview({
     selectedBackColor: [$primary],
-    
-    expandIcon: 'bx bx-chevron-right',
-    collapseIcon: 'bx bx-chevron-down',
+    color: [$primary],
+    expandIcon: "bx bx-stop-circle",
+    collapseIcon: "bx bx-check-square",
     nodeIcon: "bx bx-user",
     showTags: true,
     data: defaultData
