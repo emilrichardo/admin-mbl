@@ -9,7 +9,7 @@
     <meta name="description" content="Frest admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
     <meta name="keywords" content="admin template, Frest admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
-    <title>Pool</title>
+    <title>Products</title>
     <link rel="apple-touch-icon" href="https://logoipsum.com/logo/logo-14.svg">
     <link rel="shortcut icon" type="image/x-icon" href="https://logoipsum.com/logo/logo-14.svg">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600%7CIBM+Plex+Sans:300,400,500,600,700" rel="stylesheet">
@@ -30,7 +30,8 @@
 
     <!-- BEGIN: Page CSS-->
     <link rel="stylesheet" type="text/css" href="../app-assets/css/core/menu/menu-types/vertical-menu.css">
-    <link rel="stylesheet" type="text/css" href="../app-assets/css/pages/app-kanban.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/pages/search.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/pages/faq.css">
    
     <!-- END: Page CSS-->
 
@@ -271,182 +272,89 @@
     <div class="content-wrapper">            
         <div class="content-body">
             
-            <section class="earning-page">
+            <section class="resources search-bar-wrapper">
                 <div class="row section-title">
-                    <div class="col-12 mt-1 mb-2 mt-3">                            
-                        <h1 class="h2">Pool
-                            <span class="float-right h5 d-flex ">                            
-                                
-                                <button type="button" class="btn btn-white ml-2  d-flex align-items-center justify-content-center" data-toggle="modal" data-target="#modal-cashout">
-                                    <i class="bx bx-upload align-middle  mr-2"></i> Cashout
+                    <div class="col-12 mt-1  d-flex justify-content-between align-items-center">                            
+                        <h4 class="mb-0 h2">Resources</h4> 
+                     </div>                    
+                </div>
+                <hr> 
+
+                 <!-- Search Bar -->
+                 <div class="search-bar">
+                    <!-- input search -->
+                        <form>
+                            <fieldset class="search-input form-group position-relative">
+                                <input type="search" class="form-control rounded-right form-control-lg shadow pl-2" id="searchbar" placeholder="Search">
+                                <button class="btn btn-primary search-btn rounded" type="button">
+                                    <span class="d-none d-sm-block">Search</span>
+                                    <i class="bx bx-search d-block d-sm-none"></i>
                                 </button>
-                                <button type="button" class="btn btn-white ml-2  d-flex align-items-center justify-content-center" data-toggle="modal" data-target="#modal-transfer">
-                                    <i class="bx bx-transfer-alt mr-2 "></i> Transfer
-                                </button>
-                                <a href="#" class="btn btn-white ml-2  d-flex align-items-center justify-content-center"> <i class="bx bx-send mr-2"></i> Send</a>
-                                
-                                  
-                            </span>
-                         </h1> 
-                        <hr>  
-                        <h5 class="h6">Credit:  0.47610736 BTC</h5>                    
+                            </fieldset>
+                        </form>
+                        <!--/ input search -->
+                    </div>
+                    <div class="row search-menu">
+                        <div class="col-12">
+                            <!-- search menu tab -->
+                            <ul class="nav nav-tabs py-1" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-selected="true">
+                                        <i class="bx bx-search"></i>
+                                        <span class="d-none d-sm-block">All</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="images-tab" data-toggle="tab" href="#images" role="tab" aria-selected="false">
+                                        <i class="bx bx-image"></i>
+                                        <span class="d-none d-sm-block">Images</span>
+                                    </a>
+                                </li>                                  
+                                <li class="nav-item">
+                                    <a class="nav-link" id="video-tab" data-toggle="tab" href="#video" role="tab" aria-selected="false">
+                                        <i class="bx bx-video"></i>
+                                        <span class="d-none d-sm-block">Videos</span>
+                                    </a>
+                                </li>
+                               
+                              
+                              
+                            </ul>
+                            <!--/ search menu tab -->
+                        </div>
+                    </div>
+                    <!-- Search Bar end -->
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <img src="../app-assets/images/slider/10.png" class="card-img-top img-fluid" alt="singleminded">
+                                <div class="card-body">
+                                    <h4>We buy Bitcoin Vertical</h4>
+                                    <p>This is a print-ready file for merchants to promote that they buy bitcoin. Can be extended up to 2.5x the current size without affecting the image quality</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">Download</a>
+                                </div>
+                            </div>                                
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <img src="../app-assets/images/slider/10.png" class="card-img-top img-fluid" alt="singleminded">
+                                <div class="card-body">
+                                    <h4>We accept bitcoin</h4>
+                                    <p>This is a print-ready file for merchants to promote that they accept bitcoin. Can be extended up to 2.5x the current size without affecting the image quality</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">Download</a>
+                                </div>
+                            </div>                                
+                        </div>
                     </div>
                 </div>
-               
-
-                <h5 class="mb-1 mt-5">Wallet details pool (usd value)</h5>
-
-                <div class="accordion collapse-icon accordion-icon-rotate" id="accordionWrapa2" data-toggle-hover="true">
-                   
-                    <div class="card collapse-header mb-0">
-                        <div id="heading5" class="card-header  collapsed mb-0" data-toggle="collapse" role="button" data-target="#accordion5" aria-expanded="true" aria-controls="accordion5">
-                            <span class="collapse-title">                                    
-                                <div class="row mr-1 align-middle">
-                                    <div class="col-12 col-md-6">
-                                        <i class="bx bx-transfer-alt align-middle"></i>
-                                        <span class="align-middle">August 20, 2020 17:53</span>
-                                    </div>
-                                    <div class="col-12 col-md-6  mt-1 mt-md-0">
-                                        <div class="row justify-content-around">
-                                            <div class="col-4 col-md-auto"><small><i class="bx bx-download align-middle text-success"></i> <span class="d-none d-md-inline-block">Deposit/credit:</span> 0.0</small></div>
-                                            <div class="col-4 col-md-auto"><small><i class="bx bx-upload align-middle text-danger"></i> <span class="d-none d-md-inline-block">Withdrawal/debit:</span> 20.0</small></div>
-                                            <div class="col-4 col-md-auto"><small>Balance<span class="d-none d-md-inline-block">:</span> 0.0</small></div>
-                                        </div>                                                
-                                    </div>
-                                </div>
-                            </span>
-                        </div>
-                        <div id="accordion5" role="tabpanel" data-parent="#accordionWrapa2" aria-labelledby="heading5" class="collapse" aria-expanded="false" style="">
-                            <div class="card-content">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-md-4"></div>
-                                    </div>
-                                    <h6>Referred</h6>
-                                    <p>unmillon</p>                                       
-                                    <hr>
-                                    <h6>Description</h6>
-                                    <p>Network Earnings -
-                                        Cashout
-                                       15oSYK94pG8BZk8SocJTxLHe2m62TrnZ1J</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- card accordion -->
-                    <div class="card collapse-header mb-0">
-                        <div id="heading6" class="card-header  collapsed mb-0" data-toggle="collapse" role="button" data-target="#accordion6" aria-expanded="true" aria-controls="accordion6">
-                            <span class="collapse-title">                                    
-                                <div class="row mr-1 align-middle">
-                                    <div class="col-12 col-md-6">
-                                        <i class="bx bx-transfer-alt align-middle"></i>
-                                        <span class="align-middle">August 18, 2020 17:63</span>
-                                    </div>
-                                    <div class="col-12 col-md-6  mt-1 mt-md-0">
-                                        <div class="row justify-content-around">
-                                            <div class="col-4 col-md-auto"><small><i class="bx bx-download align-middle text-success"></i> <span class="d-none d-md-inline-block">Deposit/credit:</span> 0.0</small></div>
-                                            <div class="col-4 col-md-auto"><small><i class="bx bx-upload align-middle text-danger"></i> <span class="d-none d-md-inline-block">Withdrawal/debit:</span> 20.0</small></div>
-                                            <div class="col-4 col-md-auto"><small>Balance<span class="d-none d-md-inline-block">:</span> 0.0</small></div>
-                                        </div>                                                
-                                    </div>
-                                </div>
-                            </span>
-                        </div>
-                        <div id="accordion6" role="tabpanel" data-parent="#accordionWrapa2" aria-labelledby="heading6" class="collapse" aria-expanded="false" style="">
-                            <div class="card-content">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-md-4"></div>
-                                    </div>
-                                    <h6>Referred</h6>
-                                    <p>unmillon</p>                                       
-                                    <hr>
-                                    <h6>Description</h6>
-                                    <p>Network Earnings -
-                                        Cashout
-                                       15oSYK94pG8BZk8SocJTxLHe2m62TrnZ1J</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- card accordion -->
-                    <div class="card collapse-header mb-0">
-                        <div id="heading6" class="card-header  collapsed mb-0" data-toggle="collapse" role="button" data-target="#accordion8" aria-expanded="true" aria-controls="accordion8">
-                            <span class="collapse-title">                                    
-                                <div class="row mr-1 align-middle">
-                                    <div class="col-12 col-md-6">
-                                        <i class="bx bx-transfer-alt align-middle"></i>
-                                        <span class="align-middle">August 18, 2020 17:63</span>
-                                    </div>
-                                    <div class="col-12 col-md-6  mt-1 mt-md-0">
-                                        <div class="row justify-content-around">
-                                            <div class="col-4 col-md-auto"><small><i class="bx bx-download align-middle text-success"></i> <span class="d-none d-md-inline-block">Deposit/credit:</span> 0.0</small></div>
-                                            <div class="col-4 col-md-auto"><small><i class="bx bx-upload align-middle text-danger"></i> <span class="d-none d-md-inline-block">Withdrawal/debit:</span> 20.0</small></div>
-                                            <div class="col-4 col-md-auto"><small>Balance<span class="d-none d-md-inline-block">:</span> 0.0</small></div>
-                                        </div>                                                
-                                    </div>
-                                </div>
-                            </span>
-                        </div>
-                        <div id="accordion8" role="tabpanel" data-parent="#accordionWrapa2" aria-labelledby="heading6" class="collapse" aria-expanded="false" style="">
-                            <div class="card-content">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-md-4"></div>
-                                    </div>
-                                    <h6>Referred</h6>
-                                    <p>unmillon</p>                                       
-                                    <hr>
-                                    <h6>Description</h6>
-                                    <p>Network Earnings -
-                                        Cashout
-                                       15oSYK94pG8BZk8SocJTxLHe2m62TrnZ1J</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- card accordion -->
-                    <div class="card collapse-header mb-0">
-                        <div id="heading6" class="card-header  collapsed mb-0" data-toggle="collapse" role="button" data-target="#accordion7" aria-expanded="true" aria-controls="accordion7">
-                            <span class="collapse-title">                                    
-                                <div class="row mr-1 align-middle">
-                                    <div class="col-12 col-md-6">
-                                        <i class="bx bx-transfer-alt align-middle"></i>
-                                        <span class="align-middle">August 18, 2020 17:63</span>
-                                    </div>
-                                    <div class="col-12 col-md-6  mt-1 mt-md-0">
-                                        <div class="row justify-content-around">
-                                            <div class="col-4 col-md-auto"><small><i class="bx bx-download align-middle text-success"></i> <span class="d-none d-md-inline-block">Deposit/credit:</span> 0.0</small></div>
-                                            <div class="col-4 col-md-auto"><small><i class="bx bx-upload align-middle text-danger"></i> <span class="d-none d-md-inline-block">Withdrawal/debit:</span> 20.0</small></div>
-                                            <div class="col-4 col-md-auto"><small>Balance<span class="d-none d-md-inline-block">:</span> 0.0</small></div>
-                                        </div>                                                
-                                    </div>
-                                </div>
-                            </span>
-                        </div>
-                        <div id="accordion7" role="tabpanel" data-parent="#accordionWrapa2" aria-labelledby="heading6" class="collapse" aria-expanded="false" style="">
-                            <div class="card-content">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-md-4"></div>
-                                    </div>
-                                    <h6>Referred</h6>
-                                    <p>unmillon</p>                                       
-                                    <hr>
-                                    <h6>Description</h6>
-                                    <p>Network Earnings -
-                                        Cashout
-                                       15oSYK94pG8BZk8SocJTxLHe2m62TrnZ1J</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- card accordion -->
-                    
-                   
-                  
-                  
-                </div>
-
-
             </section>
-
 
         </div>
     </div>
@@ -456,8 +364,8 @@
     <div class="sidenav-overlay"></div>
     <div class="drag-target"></div>
 
-    <!-- BEGIN: Footer-->
-    <footer class="footer footer-static footer-light mt-5">
+       <!-- BEGIN: Footer-->
+       <footer class="footer footer-static footer-light mt-5">
         <p class="clearfix mb-0"><span class="float-left d-inline-block">2020 &copy; My Blockchain Life</span>
             <button class="btn btn-primary btn-icon scroll-top" type="button"><i class="bx bx-up-arrow-alt"></i></button>
         </p>
@@ -465,96 +373,7 @@
     <!-- END: Footer-->
 
 
-    <!-- Button trigger modal -->
-
-  <!-- Modal -->
-  <div class="modal fade " id="modal-transfer" tabindex="-1" aria-labelledby="modal-transferLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modal-transferLabel">Transfer</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-            <label for="#dest">Direction</label>
-            <div class="form-group d-flex align-items-center">
-                
-                <select class="custom-select" id="validationDefault04" required>
-                    <option selected disabled value="">Credit Cryto</option>
-                    <option>...</option>
-                  </select>
-                  <div class="transfer-separator text-center mx-1">
-                    <a class="btn btn-light-success" href="#"><i class="bx bx-transfer-alt align-middle"></i></a>
-                  </div>
-                  <select class="custom-select" id="validationDefault04" required>
-                    <option selected disabled value="">Pool</option>
-                    <option>...</option>
-                  </select>
-              </div>
-              
-
-            <div class="d-block mt-2" >
-                <div class="form-group">
-                    <label for="amount-trasnfer">Amount</label>
-                    <input type="text" class="touchspin-vertical" data-bts-button-down-class="btn btn-outline-light" data-bts-button-up-class="btn btn-outline-light" value="1" />
-                    <small id="emailHelp" class="form-text text-muted">Available：2.5</small>
-                  </div>                
-            </div> 
-            <button type="button" class="btn btn-primary btn-lg btn-block  mt-2">Confirm</button>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-
-
-   <!-- Modal -->
-   <div class="modal fade " id="modal-cashout" tabindex="-1" aria-labelledby="modal-cashoutLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modal-cashoutLabel">Cashout</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-           
-
-            <div class="d-block mt-2" >
-                
-                <div class="form-group">
-                    <label for="amount-trasnfer">Amount in USD</label>
-                    <select class="custom-select" id="validationDefault04" required>
-                        <option selected disabled value="">Credit Cryto</option>
-                        <option>...</option>
-                      </select>
-                  </div> 
-                  <div class="form-group">
-                    <label for="amount-trasnfer">Account</label>
-                    <input type="text" class="touchspin-vertical" data-bts-button-down-class="btn btn-outline-light" data-bts-button-up-class="btn btn-outline-light" value="1" />
-                    <small id="emailHelp" class="form-text text-muted">Available：2.5</small>
-                  </div>                   
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Wallet address</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">                    
-                  </div> 
-                  <div class="divider">
-                    <div class="divider-text">A token was sent to your email</div>
-                 </div>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Token</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">                    
-                  </div>           
-            </div> 
-            <button type="button" class="btn btn-primary btn-lg btn-block  mt-2">Cashout</button>
-        </div>
-        
-      </div>
-    </div>
-  </div>
+  
 
 
     <!-- BEGIN: Vendor JS-->
@@ -577,36 +396,9 @@
    
    
     <!-- END: Page JS-->
-    <!-- BEGIN: Page JS-->
-    <script src="../app-assets/js/scripts/forms/number-input.js"></script>
+
+
     
-    <!-- END: Page JS-->
-
-
- 
-
- <script>
-     $(".add-credit").on("click", function () {
-         $(".kanban-overlay").addClass("show");
-         $(".kanban-sidebar").addClass("show");
-     });
-    
-
-      $(
-         ".kanban-sidebar .delete-kanban-item, .kanban-sidebar .close-icon, .kanban-sidebar .update-kanban-item, .kanban-overlay"
-     ).on("click", function () {
-         $(".kanban-overlay").removeClass("show");
-         $(".kanban-sidebar").removeClass("show");
-     });
-     // Perfect Scrollbar - card-content on kanban-sidebar
-     if ($(".kanban-sidebar .edit-kanban-item .card-content").length > 0) {
-         new PerfectScrollbar(".card-content", {
-         wheelPropagation: false
-         });
-     } 
- </script>
-    
-
 </body>
 <!-- END: Body-->
 
