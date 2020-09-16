@@ -40,7 +40,7 @@
 .calendar-wrapper .calendar-view .calendar-action .btn-action {
   border : 1px solid #DFE3E7;
   padding : 0.267rem 1.5rem 0.267rem 0.9rem;
-  font-family : 'muli', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
 }
 .calendar-wrapper .calendar-view .calendar-action .dropdown-menu {
   cursor : pointer;
@@ -265,7 +265,7 @@
 }
 .calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup-detail .tui-full-calendar-schedule-title {
   /* calander popup */
-  font-family : 'muli', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
   font-weight : normal;
 }
 .calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup-detail .tui-full-calendar-content {

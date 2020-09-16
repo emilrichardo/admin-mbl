@@ -39,7 +39,7 @@
   height : calc(100% - 5.4rem);
 }
 .todo-application .content-area-wrapper .sidebar .todo-sidebar .todo-app-menu .sidebar-menu-list .filter-label {
-  font-family : 'muli', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
   letter-spacing : 1px;
   color : #717171;
 }
@@ -108,7 +108,7 @@
   font-size : 1.75rem;
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar .task-title {
-  font-family : 'muli', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
   font-size : 1.1rem;
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar .assigned .avatar .avatar-content {
@@ -287,7 +287,7 @@
           transition : all 0.35s ease 0s !important;
 }
 .todo-application .content-area-wrapper .content-right .todo-app-list-wrapper .todo-app-list .todo-task-list .todo-task-list-wrapper .todo-item .todo-title {
-  font-family : 'muli', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
   color : #475F7B;
 }
 .todo-application .content-area-wrapper .content-right .todo-app-list-wrapper .todo-app-list .todo-task-list .todo-task-list-wrapper .todo-item .todo-item-favorite, .todo-application .content-area-wrapper .content-right .todo-app-list-wrapper .todo-app-list .todo-task-list .todo-task-list-wrapper .todo-item .todo-item-delete {

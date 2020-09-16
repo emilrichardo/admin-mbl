@@ -713,7 +713,7 @@ body.footer-hidden footer {
 
 /* Main Navigation */
 .navigation {
-  font-family : 'muli', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
   overflow-y : hidden;
   padding-bottom : 20px;
 }

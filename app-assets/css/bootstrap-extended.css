@@ -254,7 +254,7 @@ pre code {
 /*---------------*/
 .table th, .table td {
   /* default font-family to table data */
-  font-family : 'muli', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
 }
 
 .table thead {
@@ -1256,7 +1256,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 .header-navbar {
   padding : 0;
   min-height : 4rem;
-  font-family : 'muli', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
   -webkit-transition : 100ms ease all;
           transition : 100ms ease all;
   z-index : 1000;
@@ -2050,7 +2050,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
   font-weight : normal;
   color : #475F7B;
   padding : 1rem 1.9rem;
-  font-family : 'muli', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
 }
 
 /* Card Column specific */
@@ -2206,7 +2206,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 /*------------*/
 .badge {
   color : #FFFFFF;
-  font-family : 'muli', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
   background-color : #F8CD56;
   text-transform : uppercase;
 }
@@ -2642,7 +2642,7 @@ _:-ms-lang(x), .toast-bs-container {
   padding : 1rem 1.7rem;
   border-radius : 0.267rem !important;
   font-size : 1.2rem;
-  font-family : 'muli', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
   cursor : pointer;
 }
 .collapsible .card .card-header i, .accordion .card .card-header i {
@@ -2794,7 +2794,7 @@ _:-ms-lang(x), .toast-bs-container {
           align-items : center;
 }
 .modal .modal-content .modal-header .modal-title {
-  font-family : 'muli', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
   font-weight : normal;
   font-size : 1.2rem;
 }

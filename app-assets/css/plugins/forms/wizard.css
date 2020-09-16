@@ -157,7 +157,7 @@
   font-size : 2.4rem;
 }
 .wizard.vertical .steps ul li a i + span {
-  font-family : 'muli', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
   color : #475F7B;
 }
 .wizard.vertical .steps ul li a .number {

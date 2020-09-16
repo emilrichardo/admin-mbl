@@ -17,7 +17,7 @@
   cursor : pointer;
 }
 #widget-earnings .widget-earnings-swiper.swiper-container .swiper-slide .swiper-text {
-  font-family : 'muli', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
 }
 #widget-earnings .widget-earnings-swiper.swiper-container .swiper-slide.swiper-slide-active {
   /* swiper slide active */

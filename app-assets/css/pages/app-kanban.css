@@ -13,7 +13,7 @@
 .kanban-container .kanban-board .kanban-board-header {
   /* kanban-header */
   font-size : 1.2rem;
-  font-family : 'muli', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
   color : #475F7B;
   padding : 0 0.93rem;
   display : -webkit-box;
