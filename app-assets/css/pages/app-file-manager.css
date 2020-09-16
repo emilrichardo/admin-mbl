@@ -162,26 +162,26 @@
   margin-bottom : 0.1rem;
 }
 .file-manager-application .content-area-wrapper .content-right .app-file-area .app-file-content .app-file-folder .app-file-folder-logo i {
-  color : #797979;
+  color : #717171;
 }
 .file-manager-application .content-area-wrapper .content-right .app-file-area .app-file-content .app-file-info {
   cursor : pointer;
 }
 .file-manager-application .content-area-wrapper .content-right .app-file-area .app-file-content .app-file-info .app-file-edit-icon {
-  color : #939393;
+  color : #8B8B8B;
 }
 .file-manager-application .content-area-wrapper .app-file-label {
   /* app file labels */
   font-family : 'muli', Helvetica, Arial, serif;
   letter-spacing : 1px;
   margin : 1.2rem 0 0.5rem 0;
-  color : #939393;
+  color : #8B8B8B;
 }
 
 .app-file-sidebar-info .widget-timeline .timeline-content {
   font-weight : 500;
   font-size : 13px;
-  color : #797979;
+  color : #717171;
 }
 
 .app-file-sidebar-info .widget-timeline .timeline-time {

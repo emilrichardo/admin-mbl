@@ -567,18 +567,18 @@ select.select-light-black ~ .select2-container .select2-selection--multiple .sel
 /* Text color */
 /* ---------- */
 .dark {
-  color : #202020 !important;
+  color : #181818 !important;
 }
 
 /* text with light dark */
 .text-light-dark {
-  color : rgba(32, 32, 32, 0.2) !important;
+  color : rgba(24, 24, 24, 0.2) !important;
 }
 
 /* Background color */
 /* ---------------- */
 .bg-dark {
-  background-color : #202020 !important;
+  background-color : #181818 !important;
 }
 .bg-dark .card-header, .bg-dark .card-footer {
   background-color : transparent;
@@ -586,98 +586,98 @@ select.select-light-black ~ .select2-container .select2-selection--multiple .sel
 
 /* bg color lighten for rgba - opacity set */
 .bg-rgba-dark {
-  background : rgba(32, 32, 32, 0.2) !important;
+  background : rgba(24, 24, 24, 0.2) !important;
 }
 .bg-rgba-dark.alert {
-  color : #202020;
+  color : #181818;
 }
 .bg-rgba-dark.alert.alert-dismissible .close {
-  color : #202020;
+  color : #181818;
 }
 
 /* Alert dark */
 /* ---------------- */
 .alert.alert-dark {
-  background : #202020 !important;
+  background : #181818 !important;
   color : #FFFFFF !important;
-  box-shadow : 0 3px 8px 0 rgba(32, 32, 32, 0.4);
+  box-shadow : 0 3px 8px 0 rgba(24, 24, 24, 0.4);
   border : none;
 }
 
 /* Border dark */
 /* ---------------- */
 .border-dark {
-  border : 1px solid #202020 !important;
+  border : 1px solid #181818 !important;
 }
 .border-dark.alert {
-  color : #202020;
+  color : #181818;
 }
 .border-dark.alert.alert-dismissible .close {
-  color : #202020;
+  color : #181818;
 }
 
 .border-top-dark {
-  border-top : 1px solid #202020;
+  border-top : 1px solid #181818;
 }
 
 .border-bottom-dark {
-  border-bottom : 1px solid #202020;
+  border-bottom : 1px solid #181818;
 }
 
 .border-left-dark {
-  border-left : 1px solid #202020;
+  border-left : 1px solid #181818;
 }
 
 .border-right-dark {
-  border-right : 1px solid #202020;
+  border-right : 1px solid #181818;
 }
 
 /* Navbar icon stroke color according to bg color */
 .header-navbar.bg-dark .navbar-nav .nav-item > a i {
-  -webkit-text-stroke : 0.2px #202020 !important;
+  -webkit-text-stroke : 0.2px #181818 !important;
 }
 
 /* Badges */
 /* ------ */
 .badge.badge-dark {
-  background-color : #202020;
+  background-color : #181818;
 }
 
 .badge.badge-light-dark {
-  color : #202020 !important;
+  color : #181818 !important;
 }
 
 .badge.bg-dark.badge-glow, .badge.border-dark.badge-glow, .badge.badge-dark.badge-glow {
-  box-shadow : 0 0 10px #202020;
+  box-shadow : 0 0 10px #181818;
 }
 
 .badge-circle-dark {
-  background-color : #202020;
+  background-color : #181818;
 }
 
 .badge-circle-light-dark {
-  color : #202020;
+  color : #181818;
 }
 
 .overlay-dark {
-  background : #202020;
-  background : rgba(32, 32, 32, 0.6);
+  background : #181818;
+  background : rgba(24, 24, 24, 0.6);
 }
 
 /* Basic buttons */
 /* ------------- */
 .btn-dark {
-  background-color : #202020 !important;
+  background-color : #181818 !important;
 }
 .btn-dark:hover.glow, .btn-dark.hover.glow {
-  box-shadow : 0 4px 12px 0 rgba(32, 32, 32, 0.6) !important;
+  box-shadow : 0 4px 12px 0 rgba(24, 24, 24, 0.6) !important;
 }
 .btn-dark.glow {
-  box-shadow : 0 2px 4px 0 rgba(32, 32, 32, 0.5) !important;
+  box-shadow : 0 2px 4px 0 rgba(24, 24, 24, 0.5) !important;
 }
 
 .btn-light-dark {
-  color : #202020 !important;
+  color : #181818 !important;
 }
 .btn-light-dark:hover, .btn-light-dark.hover {
   color : #FFFFFF !important;
@@ -688,9 +688,9 @@ select.select-light-black ~ .select2-container .select2-selection--multiple .sel
 
 /* Outline buttons */
 .btn-outline-dark {
-  border : 1px solid #202020;
+  border : 1px solid #181818;
   background-color : transparent;
-  color : #202020 !important;
+  color : #181818 !important;
 }
 .btn-outline-dark:hover, .btn-outline-dark.hover {
   color : #FFFFFF !important;
@@ -702,7 +702,7 @@ select.select-light-black ~ .select2-container .select2-selection--multiple .sel
 /* Dropdowns */
 /* --------- */
 .btn-dark ~ .dropdown-menu .dropdown-item.active, .btn-outline-dark ~ .dropdown-menu .dropdown-item.active {
-  background-color : #202020;
+  background-color : #181818;
   color : #FFFFFF;
 }
 .btn-dark ~ .dropdown-menu .dropdown-item.active:hover, .btn-outline-dark ~ .dropdown-menu .dropdown-item.active:hover {
@@ -710,7 +710,7 @@ select.select-light-black ~ .select2-container .select2-selection--multiple .sel
 }
 
 .dropdown.dropdown-icon-wrapper .btn-dark ~ .dropdown-menu .dropdown-item:hover i, .dropdown.dropdown-icon-wrapper .btn-outline-dark ~ .dropdown-menu .dropdown-item:hover i, .dropup.dropdown-icon-wrapper .btn-dark ~ .dropdown-menu .dropdown-item:hover i, .dropup.dropdown-icon-wrapper .btn-outline-dark ~ .dropdown-menu .dropdown-item:hover i, .dropright.dropdown-icon-wrapper .btn-dark ~ .dropdown-menu .dropdown-item:hover i, .dropright.dropdown-icon-wrapper .btn-outline-dark ~ .dropdown-menu .dropdown-item:hover i, .dropleft.dropdown-icon-wrapper .btn-dark ~ .dropdown-menu .dropdown-item:hover i, .dropleft.dropdown-icon-wrapper .btn-outline-dark ~ .dropdown-menu .dropdown-item:hover i {
-  color : #202020;
+  color : #181818;
 }
 
 .dropdown.dropdown-icon-wrapper .btn-dark ~ .dropdown-menu .dropdown-item:active i, .dropdown.dropdown-icon-wrapper .btn-outline-dark ~ .dropdown-menu .dropdown-item:active i, .dropup.dropdown-icon-wrapper .btn-dark ~ .dropdown-menu .dropdown-item:active i, .dropup.dropdown-icon-wrapper .btn-outline-dark ~ .dropdown-menu .dropdown-item:active i, .dropright.dropdown-icon-wrapper .btn-dark ~ .dropdown-menu .dropdown-item:active i, .dropright.dropdown-icon-wrapper .btn-outline-dark ~ .dropdown-menu .dropdown-item:active i, .dropleft.dropdown-icon-wrapper .btn-dark ~ .dropdown-menu .dropdown-item:active i, .dropleft.dropdown-icon-wrapper .btn-outline-dark ~ .dropdown-menu .dropdown-item:active i {
@@ -719,34 +719,34 @@ select.select-light-black ~ .select2-container .select2-selection--multiple .sel
 
 /* Bullet dark */
 .bullet.bullet-dark {
-  background-color : #202020;
+  background-color : #181818;
 }
 
 /* For Pagination */
 /* -------------- */
 .pagination-dark .page-item.active .page-link, .pagination-dark .page-item.active .page-link:hover {
-  background : #202020 !important;
+  background : #181818 !important;
   color : #FFFFFF;
 }
 
 .pagination-dark .page-item.previous .page-link, .pagination-dark .page-item.next .page-link {
-  color : #202020;
+  color : #181818;
 }
 .pagination-dark .page-item.previous .page-link:hover, .pagination-dark .page-item.next .page-link:hover {
-  background : #202020;
+  background : #181818;
 }
 
 /* Progress Bars dark */
 /* ---------------------- */
 .progress-bar-dark .progress-bar {
-  background-color : #202020;
-  box-shadow : 0 2px 6px 0 rgba(32, 32, 32, 0.6);
+  background-color : #181818;
+  box-shadow : 0 2px 6px 0 rgba(24, 24, 24, 0.6);
 }
 
 /* Chips dark */
 /* ---------------- */
 .chip-dark {
-  background-color : #202020 !important;
+  background-color : #181818 !important;
 }
 .chip-dark .chip-body {
   color : #FFFFFF !important;
@@ -755,23 +755,23 @@ select.select-light-black ~ .select2-container .select2-selection--multiple .sel
 /* Divider dark */
 /* ---------------*/
 .divider.divider-dark .divider-text:before, .divider.divider-dark .divider-text:after {
-  border-color : #202020 !important;
+  border-color : #181818 !important;
 }
 
 /* timeline */
 .widget-timeline li.timeline-items.timeline-icon-dark:before {
-  background : #202020 !important;
+  background : #181818 !important;
 }
 
 /* Custom Checkbox & Radio - Colored */
 /* --------------------------------- */
 input[type='checkbox'].bg-dark + .custom-control-label:before, input[type='radio'].bg-dark + .custom-control-label:before {
-  background-color : #202020 !important;
+  background-color : #181818 !important;
 }
 
 .checkbox.checkbox-dark input:checked ~ label::before, .checkbox.radio-dark input:checked ~ label::before, .radio.checkbox-dark input:checked ~ label::before, .radio.radio-dark input:checked ~ label::before {
-  background-color : #202020;
-  border-color : #202020;
+  background-color : #181818;
+  border-color : #181818;
 }
 
 .checkbox.checkbox-dark input:checked ~ label::after, .checkbox.radio-dark input:checked ~ label::after, .radio.checkbox-dark input:checked ~ label::after, .radio.radio-dark input:checked ~ label::after {
@@ -779,7 +779,7 @@ input[type='checkbox'].bg-dark + .custom-control-label:before, input[type='radio
 }
 
 .checkbox.checkbox-dark.checkbox-glow input:checked ~ label::before, .checkbox.checkbox-dark.radio-glow input:checked ~ label::before, .checkbox.radio-dark.checkbox-glow input:checked ~ label::before, .checkbox.radio-dark.radio-glow input:checked ~ label::before, .radio.checkbox-dark.checkbox-glow input:checked ~ label::before, .radio.checkbox-dark.radio-glow input:checked ~ label::before, .radio.radio-dark.checkbox-glow input:checked ~ label::before, .radio.radio-dark.radio-glow input:checked ~ label::before {
-  box-shadow : 0 0 6px 0 rgba(32, 32, 32, 0.7);
+  box-shadow : 0 0 6px 0 rgba(24, 24, 24, 0.7);
 }
 
 .checkbox.checkbox-dark.checkbox-icon label i, .checkbox.radio-dark.checkbox-icon label i, .radio.checkbox-dark.checkbox-icon label i, .radio.radio-dark.checkbox-icon label i {
@@ -800,36 +800,36 @@ input[type='checkbox'].bg-dark + .custom-control-label:before, input[type='radio
 /* Bootstrap Custom Switches */
 /* ------------------------- */
 .custom-switch-dark .custom-control-input:checked ~ .custom-control-label::before {
-  background-color : #202020 !important;
+  background-color : #181818 !important;
   color : #FFFFFF;
   -webkit-transition : all 0.2s ease-out;
           transition : all 0.2s ease-out;
 }
 
 .custom-switch-dark.custom-switch-glow .custom-control-input:not(:disabled):checked ~ .custom-control-label::before {
-  box-shadow : 0 0 8px 0 rgba(32, 32, 32, 0.8) !important;
+  box-shadow : 0 0 8px 0 rgba(24, 24, 24, 0.8) !important;
 }
 
 /* Touchspin Glow */
 /* -------------- */
 .input-group.touchspin-glow .bootstrap-touchspin-down.btn-dark, .input-group.touchspin-glow .bootstrap-touchspin-up.btn-dark {
-  box-shadow : 0 0 8px 0 rgba(32, 32, 32, 0.8);
+  box-shadow : 0 0 8px 0 rgba(24, 24, 24, 0.8);
 }
 
 /* Scrumboard Application - kanban-item with coloured border */
 /* --------------------------------------------------------- */
 .kanban-container .kanban-board .kanban-item[data-border=dark]:before {
-  background-color : #202020;
+  background-color : #181818;
 }
 
 .edit-kanban-item select option.bg-color_name {
-  background-color : #202020;
+  background-color : #181818;
 }
 
 /* Select2 dark */
 /* ---------------*/
 select.select-light-dark ~ .select2-container .select2-selection--multiple .select2-selection__rendered .select2-selection__choice, select.select-light-dark ~ .select2-container .select2-selection--multiple .select2-selection__rendered .select2-selection__choice__remove {
-  color : #202020 !important;
+  color : #181818 !important;
 }
 
 /* light Color Style */

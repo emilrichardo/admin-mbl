@@ -23,7 +23,7 @@
   width : 171px;
 }
 .invoice-view-wrapper .invoice-subtotal .invoice-calc .invoice-value {
-  color : #2D2D2D;
+  color : #252525;
   margin-bottom : 0;
 }
 
@@ -220,7 +220,7 @@
 }
 
 .invoice-edit-wrapper .invoice-subtotal-value {
-  color : #2D2D2D;
+  color : #252525;
 }
 
 .invoice-edit-wrapper .invoice-subtotal-title {

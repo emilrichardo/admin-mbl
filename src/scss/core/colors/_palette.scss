@@ -220,14 +220,14 @@ $color in $colors {
           border-color: color-function($color_name, "darken-2") !important;
         }
         background-color: $color_value !important;
-        color: #fff;
+       // color: #fff;
 
         &:hover,
         &.hover {
           @if (($color-name != "white") and ($color-name != "black") and ($color-name != "dark") and ($color-name != "light")) {
             background-color: color-function($color_name, "lighten-1") !important;
           }
-          color: #fff;
+          //color: #fff;
           &.glow{
             box-shadow: 0 4px 12px 0 rgba($color_value, 0.6) !important;
           }
@@ -239,7 +239,7 @@ $color in $colors {
           @if (($color-name != "white") and ($color-name != "black") and ($color-name != "dark") and ($color-name != "light")) {
             background-color: color-function($color_name, "darken-1") !important;
           }
-          color: #fff !important;
+          //color: #fff !important;
         }
 
         &.glow{
@@ -247,7 +247,7 @@ $color in $colors {
         }
 
         &:disabled, &.disabled{
-          color: #fff !important;
+          //color: #fff !important;
         }
       }
       // Buttons Light

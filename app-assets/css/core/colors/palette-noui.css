@@ -31,19 +31,19 @@
 }
 
 .slider-dark .noUi-connect {
-  background : #202020 !important;
+  background : #181818 !important;
 }
 
 .slider-dark.noUi-connect {
-  background : #202020 !important;
+  background : #181818 !important;
 }
 
 .slider-dark .noUi-handle {
-  border-color : #202020 !important;
+  border-color : #181818 !important;
 }
 
 .slider-dark.circle-filled .noUi-handle, .slider-dark.square .noUi-handle {
-  background : #202020 !important;
+  background : #181818 !important;
 }
 
 .slider-light .noUi-connect {
