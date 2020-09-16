@@ -23,7 +23,7 @@
   background-color : rgba(0, 0, 0, 0.2);
 }
 .file-manager-application .content-area-wrapper .sidebar .app-file-sidebar {
-  width : 260px;
+  width : 300px;
   height : calc(100vh - 9rem);
   border-right : 1px solid #DFE3E7;
   border-top-left-radius : 0.267rem;
@@ -64,13 +64,13 @@
   border : none;
 }
 .file-manager-application .content-area-wrapper .sidebar .app-file-sidebar .app-file-sidebar-left .list-group .list-group-item.active {
-  color : #5A8DEE;
+  color : #F8CD56;
 }
 .file-manager-application .content-area-wrapper .sidebar .app-file-sidebar .app-file-sidebar-left .list-group .list-group-item.active::before {
   content : '';
   width : 2px;
   height : 30px;
-  background-color : #5A8DEE;
+  background-color : #F8CD56;
   position : absolute;
   left : -26px;
 }
@@ -111,10 +111,10 @@
   padding-bottom : 0.2rem;
 }
 .file-manager-application .content-area-wrapper .sidebar .app-file-sidebar-info .nav-tabs .nav-link:active, .file-manager-application .content-area-wrapper .sidebar .app-file-sidebar-info .nav-tabs .nav-link.active {
-  color : #5A8DEE !important;
+  color : #F8CD56 !important;
 }
 .file-manager-application .content-area-wrapper .content-right {
-  width : calc(100% - 260px);
+  width : calc(100% - 300px);
   background-color : #FFFFFF;
 }
 .file-manager-application .content-area-wrapper .content-right .content-wrapper {
@@ -152,7 +152,7 @@
 .file-manager-application .content-area-wrapper .content-right .app-file-area .app-file-content .app-file-content-logo {
   padding : 10px 6px;
   border-bottom : 1px solid #DFE3E7;
-  background-color : #F2F4F4;
+  background-color : #FAFAFA;
 }
 .file-manager-application .content-area-wrapper .content-right .app-file-area .app-file-content .app-file-content-logo img {
   margin : 25px 0;
@@ -162,26 +162,26 @@
   margin-bottom : 0.1rem;
 }
 .file-manager-application .content-area-wrapper .content-right .app-file-area .app-file-content .app-file-folder .app-file-folder-logo i {
-  color : #B3C0CE;
+  color : #797979;
 }
 .file-manager-application .content-area-wrapper .content-right .app-file-area .app-file-content .app-file-info {
   cursor : pointer;
 }
 .file-manager-application .content-area-wrapper .content-right .app-file-area .app-file-content .app-file-info .app-file-edit-icon {
-  color : #BAC0C7;
+  color : #939393;
 }
 .file-manager-application .content-area-wrapper .app-file-label {
   /* app file labels */
-  font-family : 'Rubik', Helvetica, Arial, serif;
+  font-family : 'muli', Helvetica, Arial, serif;
   letter-spacing : 1px;
   margin : 1.2rem 0 0.5rem 0;
-  color : #BAC0C7;
+  color : #939393;
 }
 
 .app-file-sidebar-info .widget-timeline .timeline-content {
   font-weight : 500;
   font-size : 13px;
-  color : #304156;
+  color : #797979;
 }
 
 .app-file-sidebar-info .widget-timeline .timeline-time {
@@ -202,7 +202,7 @@
   }
   .file-manager-application .app-content .content-area-wrapper .sidebar-left .app-file-sidebar-left {
     background-color : #FAFBFB;
-    width : 260px;
+    width : 300px;
     height : calc(100vh - 8.9rem);
     -webkit-transform : translateX(-110%);
         -ms-transform : translateX(-110%);

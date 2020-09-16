@@ -29,7 +29,7 @@
 
 .widget-overlay .widget-overlay-card .overlay-primary {
   /* Widget Card Overlay */
-  background : rgba(90, 141, 238, 0.9);
+  background : rgba(248, 205, 86, 0.9);
   border-bottom-left-radius : 0;
   border-bottom-right-radius : 0;
 }
@@ -65,7 +65,7 @@
 }
 
 .widget-img-top .card-footer {
-  background-color : #F2F4F4;
+  background-color : #FAFAFA;
 }
 
 .widget-order-activity .badge-circle i {
@@ -135,8 +135,8 @@
 #widget-earnings .widget-earnings-swiper.swiper-container .swiper-slide.swiper-slide-active {
   /* widget Earnings swiper slide active */
   color : #FFFFFF;
-  background-color : #5A8DEE !important;
-  box-shadow : 0 3px 6px 0 rgba(90, 141, 238, 0.5) !important;
+  background-color : #F8CD56 !important;
+  box-shadow : 0 3px 6px 0 rgba(248, 205, 86, 0.5) !important;
 }
 
 #widget-earnings .wrapper-content {

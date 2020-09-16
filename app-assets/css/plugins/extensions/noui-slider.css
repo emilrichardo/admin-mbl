@@ -2,11 +2,11 @@
 /* --------------- */
 /* default bg for noUi Slider */
 .noUi-background {
-  background : #EAEDED;
+  background : #F2F2F2;
 }
 
 .noUi-target {
-  background-color : #E4E8E8;
+  background-color : #EDEDED;
   border : none;
   box-shadow : none;
   border-radius : 1rem;
@@ -70,7 +70,7 @@
   border : none;
   border-radius : 50%;
   background : #FFFFFF;
-  border : 5px solid #5A8DEE;
+  border : 5px solid #F8CD56;
 }
 .noUi-handle:after, .noUi-handle:before {
   display : none;
@@ -78,7 +78,7 @@
 
 /* for noUi square circle filled */
 .circle-filled .noUi-handle {
-  background : #5A8DEE;
+  background : #F8CD56;
   border-radius : 50%;
 }
 .circle-filled .noUi-handle:after, .circle-filled .noUi-handle:before {
@@ -87,7 +87,7 @@
 
 /* for noUi square and it's sizes */
 .square .noUi-handle {
-  background : #5A8DEE;
+  background : #F8CD56;
   border-radius : 3px;
 }
 .square .noUi-handle:before {
@@ -151,7 +151,7 @@
 
 /* default connect color */
 .noUi-connect {
-  background : #5A8DEE;
+  background : #F8CD56;
   box-shadow : none;
 }
 
@@ -168,7 +168,7 @@
   left : -6px;
 }
 .noUi-vertical.square .noUi-handle {
-  background : #5A8DEE;
+  background : #F8CD56;
   border-radius : 3px;
 }
 .noUi-vertical.square .noUi-handle:before {

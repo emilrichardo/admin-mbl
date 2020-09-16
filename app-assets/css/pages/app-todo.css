@@ -9,7 +9,7 @@
 }
 .todo-application .content-area-wrapper .sidebar .todo-sidebar {
   /* todo-sidebar menu */
-  width : 260px;
+  width : 300px;
   height : calc(100vh - 9rem);
   border-top-left-radius : 0.267rem;
   border-bottom-left-radius : 0.267rem;
@@ -31,7 +31,7 @@
   margin-bottom : 0.25rem;
 }
 .todo-application .content-area-wrapper .sidebar .todo-sidebar .todo-app-menu .add-task .add-task-btn {
-  box-shadow : 0 2px 4px 0 rgba(90, 141, 238, 0.4);
+  box-shadow : 0 2px 4px 0 rgba(248, 205, 86, 0.4);
 }
 .todo-application .content-area-wrapper .sidebar .todo-sidebar .todo-app-menu .sidebar-menu-list {
   padding : 0 1.5rem;
@@ -39,25 +39,25 @@
   height : calc(100% - 5.4rem);
 }
 .todo-application .content-area-wrapper .sidebar .todo-sidebar .todo-app-menu .sidebar-menu-list .filter-label {
-  font-family : 'Rubik', Helvetica, Arial, serif;
+  font-family : 'muli', Helvetica, Arial, serif;
   letter-spacing : 1px;
-  color : #BAC0C7;
+  color : #797979;
 }
 .todo-application .content-area-wrapper .sidebar .todo-sidebar .todo-app-menu .sidebar-menu-list .list-group .list-group-item {
   padding : 5px 0;
-  color : #727E8C;
+  color : #3D3D3D;
   font-weight : 500;
   background-color : transparent;
 }
 .todo-application .content-area-wrapper .sidebar .todo-sidebar .todo-app-menu .sidebar-menu-list .list-group .list-group-item.active {
-  color : #5A8DEE;
+  color : #F8CD56;
 }
 .todo-application .content-area-wrapper .sidebar .todo-sidebar .todo-app-menu .sidebar-menu-list .list-group .list-group-item.active::before {
   content : '';
   position : absolute;
   width : 2px;
   height : 30px;
-  background-color : #5A8DEE;
+  background-color : #F8CD56;
   left : -23px;
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar {
@@ -108,7 +108,7 @@
   font-size : 1.75rem;
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar .task-title {
-  font-family : 'Rubik', Helvetica, Arial, serif;
+  font-family : 'muli', Helvetica, Arial, serif;
   font-size : 1.1rem;
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar .assigned .avatar .avatar-content {
@@ -159,7 +159,7 @@
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar .select2-assign-label + .select2-container .select2-selection__rendered .select2-selection__choice[title='Frontend'] {
   background-color : #E2ECFF !important;
-  color : #5A8DEE !important;
+  color : #F8CD56 !important;
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar .select2-assign-label + .select2-container .select2-selection__rendered .select2-selection__choice[title='Backend'] {
   background-color : #D2FFE8 !important;
@@ -171,7 +171,7 @@
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar .select2-assign-label + .select2-container .select2-selection__rendered .select2-selection__choice[title='Design'] {
   background-color : #FFEED9 !important;
-  color : #FDAC41 !important;
+  color : #F8CD56 !important;
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar .select2-assign-label + .select2-container .select2-selection__rendered .select2-selection__choice[title='Wireframe'] {
   background-color : #CCF5F8 !important;
@@ -190,7 +190,7 @@
   border : none;
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar .snow-container .comment-btn {
-  box-shadow : 0 2px 4px 0 rgba(90, 141, 238, 0.6);
+  box-shadow : 0 2px 4px 0 rgba(248, 205, 86, 0.6);
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar .ql-editor {
   min-height : 70px;
@@ -287,11 +287,11 @@
           transition : all 0.35s ease 0s !important;
 }
 .todo-application .content-area-wrapper .content-right .todo-app-list-wrapper .todo-app-list .todo-task-list .todo-task-list-wrapper .todo-item .todo-title {
-  font-family : 'Rubik', Helvetica, Arial, serif;
+  font-family : 'muli', Helvetica, Arial, serif;
   color : #475F7B;
 }
 .todo-application .content-area-wrapper .content-right .todo-app-list-wrapper .todo-app-list .todo-task-list .todo-task-list-wrapper .todo-item .todo-item-favorite, .todo-application .content-area-wrapper .content-right .todo-app-list-wrapper .todo-app-list .todo-task-list .todo-task-list-wrapper .todo-item .todo-item-delete {
-  color : #C7CFD6;
+  color : #818181;
 }
 .todo-application .content-area-wrapper .content-right .todo-app-list-wrapper .todo-app-list .todo-task-list .todo-task-list-wrapper li:nth-child(1) {
   -webkit-animation-delay : 0.1s;

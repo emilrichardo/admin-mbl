@@ -69,23 +69,23 @@
 }
 .wizard .steps ul li.current a {
   /* current step */
-  color : #5A8DEE;
+  color : #F8CD56;
   cursor : default;
 }
 .wizard .steps ul li.current::before {
-  background-color : #5A8DEE;
+  background-color : #F8CD56;
 }
 .wizard .steps ul li.current:after {
-  background-color : #E4E8E8;
+  background-color : #EDEDED;
 }
 .wizard .steps ul li.current ~ li a {
   color : #828D99;
 }
 .wizard .steps ul li.current ~ li:before {
-  background-color : #E4E8E8;
+  background-color : #EDEDED;
 }
 .wizard .steps ul li.current ~ li:after {
-  background-color : #E4E8E8;
+  background-color : #EDEDED;
 }
 .wizard .steps ul li.disabled a {
   /* disabled step */
@@ -157,7 +157,7 @@
   font-size : 2.4rem;
 }
 .wizard.vertical .steps ul li a i + span {
-  font-family : 'Rubik', Helvetica, Arial, serif;
+  font-family : 'muli', Helvetica, Arial, serif;
   color : #475F7B;
 }
 .wizard.vertical .steps ul li a .number {
