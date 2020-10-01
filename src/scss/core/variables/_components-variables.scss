@@ -186,7 +186,7 @@ $theme-dark-menu-active-bg: lighten($dark-bg,4%);
 $theme-dark-card-color: lighten($dark-bg,3%);
 $theme-dark-active-bg-color: darken($dark-bg,2%);
 $theme-dark-heading-color: lighten($dark-bg,75%);
-$theme-dark-text-color: lighten($dark-bg,75%);
+$theme-dark-text-color: $gray-200;
 $theme-dark-table-bg: lighten($dark-bg,3%);
 $theme-dark-chat-bg-color: lighten($dark-bg,1%);
 $theme-dark-border-color: lighten($dark-bg,10%);

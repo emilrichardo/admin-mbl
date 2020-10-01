@@ -4549,7 +4549,7 @@ input[type='submit'].btn-block, input[type='reset'].btn-block, input[type='butto
   -webkit-flex : 1 1 auto;
       -ms-flex : 1 1 auto;
           flex : 1 1 auto;
-  padding : 1.7rem;
+  padding : 2vw;
 }
 
 .card-title {
@@ -4570,11 +4570,11 @@ input[type='submit'].btn-block, input[type='reset'].btn-block, input[type='butto
 }
 
 .card-link + .card-link {
-  margin-left : 1.7rem;
+  margin-left : 2vw;
 }
 
 .card-header {
-  padding : 1.4rem 1.7rem;
+  padding : 1.4rem 2vw;
   margin-bottom : 0;
   background-color : transparent;
   border-bottom : 0 solid #DFE3E7;
@@ -4587,7 +4587,7 @@ input[type='submit'].btn-block, input[type='reset'].btn-block, input[type='butto
 }
 
 .card-footer {
-  padding : 1.4rem 1.7rem;
+  padding : 1.4rem 2vw;
   background-color : transparent;
   border-top : 0 solid #DFE3E7;
 }
@@ -4596,15 +4596,15 @@ input[type='submit'].btn-block, input[type='reset'].btn-block, input[type='butto
 }
 
 .card-header-tabs {
-  margin-right : -0.85rem;
+  margin-right : -1vw;
   margin-bottom : -1.4rem;
-  margin-left : -0.85rem;
+  margin-left : -1vw;
   border-bottom : 0;
 }
 
 .card-header-pills {
-  margin-right : -0.85rem;
-  margin-left : -0.85rem;
+  margin-right : -1vw;
+  margin-left : -1vw;
 }
 
 .card-img-overlay {
