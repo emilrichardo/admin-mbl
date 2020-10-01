@@ -32,7 +32,7 @@
       content: "\ea4f";
       font-family: "boxicons";
       font-size: $arrow-font-size;
-      color: #8494a7;
+      color: #c7c7c7;
       display: inline-block;
       position: absolute;
       right: 7px;
@@ -43,6 +43,7 @@
   &.open {
     > a:not(.mm-next):after {
       transform: rotate(180deg);
+      color: $primary;
     }
   }
 }
@@ -111,8 +112,8 @@
       a {
         display: flex;
         align-items: center;
-        color: #8494a7;
-        padding: 10px 12px;
+        color: #a7a7a7;
+        padding: 15px 16px;
       }
     }
 
@@ -122,14 +123,14 @@
       &.nav-item {
         &:not(.has-sub) {
           a {
-            padding: 10px 12px;
+            padding: 15px 16px;
           }
         }
       }
       &.open {
         &.sidebar-group-active {
           > a {
-            padding: 10px 15px;
+            padding: 15px 16x;
           }
         }
       }
@@ -180,7 +181,7 @@
         &:not(.sidebar-group-active){
           > a {
             // background: $main-menu-active-bg;
-            background: rgba($primary, .15);
+            background: rgba($white, .05);
             color: $primary;
             border-radius: $border-radius;
           }

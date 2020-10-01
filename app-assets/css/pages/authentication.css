@@ -1,7 +1,7 @@
 /* Authentication page css */
 /*-------------------------*/
 .bg-authentication {
-  background-color : #F2F4F4;
+  background-color : #F6F5F5;
 }
 .bg-authentication #icon-arrow {
   position : absolute;
@@ -9,7 +9,7 @@
   right : 15px;
 }
 .bg-authentication .brand-text {
-  color : #5A8DEE;
+  color : #E9CE41;
   font-weight : 600;
   letter-spacing : 0.01rem;
 }

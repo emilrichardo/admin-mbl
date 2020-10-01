@@ -128,12 +128,12 @@ body.vertical-layout {
                 }
                 &.active{
                   a{
-                    background: rgba($primary, 0.2);
+                    background: rgba($primary, 0.1);
                     box-shadow: none;
                   }
                 }
                 &.menu-collapsed-open{
-                  background: rgba($primary, 0.2);
+                  background: rgba($primary, 0.1);
                   border: none;
                 }
               }
@@ -211,7 +211,7 @@ body.vertical-layout {
    body.vertical-layout {
       &.vertical-menu-modern {
          .main-menu {
-            border-right: 1px solid $border-color;
+            border-right: 1px solid transparent;
              &.menu-dark{
                border-right: 1px solid $theme-dark-border-color;
              }

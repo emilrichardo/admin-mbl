@@ -1,11 +1,11 @@
 /* Semi Dark Layout */
 /* ---------------- */
 body.semi-dark-layout .main-menu {
-  background-color : #1A233A !important;
+  background-color : #15131D !important;
 }
 body.semi-dark-layout .main-menu .shadow-bottom {
-  background : -webkit-linear-gradient(top, #1A233AF0 44%, #1A233ABF 73%, #2C303C00);
-  background :         linear-gradient(180deg, #1A233AF0 44%, #1A233ABF 73%, #2C303C00);
+  background : -webkit-linear-gradient(top, rgba(21, 19, 29, 0.73) 44%, rgba(21, 19, 29, 0.44) 73%, rgba(21, 19, 29, 0));
+  background :         linear-gradient(180deg, rgba(21, 19, 29, 0.73) 44%, rgba(21, 19, 29, 0.44) 73%, rgba(21, 19, 29, 0));
 }
 body.semi-dark-layout .main-menu .navbar-header {
   z-index : 3;
@@ -18,20 +18,20 @@ body.semi-dark-layout .main-menu-content .navigation-main {
   background-color : transparent;
 }
 body.semi-dark-layout .main-menu-content .navigation-main .nav-item i {
-  color : #8A99B5;
+  color : #828D99;
 }
 body.semi-dark-layout .main-menu-content .navigation-main .nav-item a:after {
-  color : #8A99B5;
+  color : #828D99;
 }
 body.semi-dark-layout .main-menu-content .navigation-main .nav-item .menu-content .active .menu-item {
-  color : #5A8DEE !important;
+  color : #E9CE41 !important;
 }
 body.semi-dark-layout .main-menu-content .navigation-main .active .menu-title, body.semi-dark-layout .main-menu-content .navigation-main .active i {
-  color : #5A8DEE;
+  color : #E9CE41;
 }
 body.semi-dark-layout .main-menu-content .navigation-main .sidebar-group-active {
-  background : #272E48 !important;
+  background : #1C1926 !important;
 }
 body.semi-dark-layout .main-menu-content .navigation-main .sidebar-group-active .menu-content .active {
-  background-color : #343B53;
+  background-color : #201D2C;
 }

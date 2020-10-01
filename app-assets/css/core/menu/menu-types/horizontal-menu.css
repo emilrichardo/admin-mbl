@@ -43,7 +43,7 @@
 }
 
 .horizontal-menu .header-navbar {
-  background-color : #F2F4F4;
+  background-color : #F6F5F5;
   border-bottom : 1px solid #DFE3E7;
   z-index : 999 !important;
   left : 0 !important;
@@ -161,28 +161,28 @@
   left : 0.5rem;
 }
 .horizontal-menu .navbar-expand-sm .navbar-nav > li li:not(.sidebar-group-active).active a {
-  background : rgba(90, 141, 238, 0.2) !important;
-  color : #5A8DEE !important;
-  border-left : 4px solid #5A8DEE;
+  background : rgba(233, 206, 65, 0.2) !important;
+  color : #E9CE41 !important;
+  border-left : 4px solid #E9CE41;
   padding-left : 1rem !important;
 }
 .horizontal-menu .navbar-expand-sm .navbar-nav > li li:not(.sidebar-group-active).active a i {
-  color : #5A8DEE;
+  color : #E9CE41;
 }
 .horizontal-menu .navbar-expand-sm .navbar-nav > li li.sidebar-group-active {
   background-color : #F2F4F4;
 }
 .horizontal-menu .navbar-expand-sm .navbar-nav > li li.sidebar-group-active > a > i {
-  color : #5A8DEE !important;
+  color : #E9CE41 !important;
 }
 .horizontal-menu .navbar-expand-sm .navbar-nav > li li.sidebar-group-active .dropdown-menu li:not(.sidebar-group-active).active a {
-  background : rgba(90, 141, 238, 0.2);
-  color : #5A8DEE;
-  border-left : 4px solid #5A8DEE;
+  background : rgba(233, 206, 65, 0.2);
+  color : #E9CE41;
+  border-left : 4px solid #E9CE41;
   padding-left : 1.4rem;
 }
 .horizontal-menu .navbar-expand-sm .navbar-nav > li li.sidebar-group-active .dropdown-menu li:not(.sidebar-group-active).active a i {
-  color : #5A8DEE;
+  color : #E9CE41;
 }
 
 .horizontal-menu .navbar-expand-sm .navbar-nav .dropdown.show > .dropdown-menu {
@@ -430,7 +430,7 @@
 
 .vertical-overlay-menu .navbar .navbar-header {
   float : left;
-  width : 260px;
+  width : 300px;
 }
 
 .vertical-overlay-menu .navbar[data-nav='brand-center'] .navbar-header {
@@ -475,8 +475,8 @@
           transition : width 0.25s,opacity 0.25s,-webkit-transform 0.25s;
           transition : width 0.25s,opacity 0.25s,transform 0.25s;
           transition : width 0.25s,opacity 0.25s,transform 0.25s,-webkit-transform 0.25s;
-  width : 260px;
-  left : -260px;
+  width : 300px;
+  left : -300px;
 }
 .vertical-overlay-menu .main-menu .navigation > li > a > span.badge {
   position : absolute;
@@ -501,7 +501,7 @@
   content : '\ea4f';
   font-family : 'boxicons';
   font-size : 1.2rem;
-  color : #8494A7;
+  color : #C7C7C7;
   display : inline-block;
   position : absolute;
   right : 7px;
@@ -514,12 +514,13 @@
   -webkit-transform : rotate(180deg);
       -ms-transform : rotate(180deg);
           transform : rotate(180deg);
+  color : #E9CE41;
 }
 
 .vertical-overlay-menu.menu-open .main-menu {
   opacity : 1;
-  -webkit-transform : translate3d(260px, 0, 0);
-          transform : translate3d(260px, 0, 0);
+  -webkit-transform : translate3d(300px, 0, 0);
+          transform : translate3d(300px, 0, 0);
   -webkit-transition : width 0.25s,opacity 0.25s,-webkit-transform 0.25s;
           transition : width 0.25s,opacity 0.25s,-webkit-transform 0.25s;
           transition : width 0.25s,opacity 0.25s,transform 0.25s;

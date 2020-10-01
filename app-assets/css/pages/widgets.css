@@ -29,7 +29,7 @@
 
 .widget-overlay .widget-overlay-card .overlay-primary {
   /* Widget Card Overlay */
-  background : rgba(90, 141, 238, 0.9);
+  background : rgba(233, 206, 65, 0.9);
   border-bottom-left-radius : 0;
   border-bottom-right-radius : 0;
 }
@@ -65,7 +65,7 @@
 }
 
 .widget-img-top .card-footer {
-  background-color : #F2F4F4;
+  background-color : #F6F5F5;
 }
 
 .widget-order-activity .badge-circle i {
@@ -74,7 +74,7 @@
 }
 
 .widget-order-activity .widget-order-activity-footer h1, .widget-order-activity .widget-order-activity-footer h2, .widget-order-activity .widget-order-activity-footer h3, .widget-order-activity .widget-order-activity-footer h4, .widget-order-activity .widget-order-activity-footer h5, .widget-order-activity .widget-order-activity-footer h6 {
-  color : #475F7B;
+  color : #626568;
 }
 
 .widget-notification .list-group-item .readable-mark-icon {
@@ -135,8 +135,8 @@
 #widget-earnings .widget-earnings-swiper.swiper-container .swiper-slide.swiper-slide-active {
   /* widget Earnings swiper slide active */
   color : #FFFFFF;
-  background-color : #5A8DEE !important;
-  box-shadow : 0 3px 6px 0 rgba(90, 141, 238, 0.5) !important;
+  background-color : #E9CE41 !important;
+  box-shadow : 0 3px 6px 0 rgba(233, 206, 65, 0.5) !important;
 }
 
 #widget-earnings .wrapper-content {

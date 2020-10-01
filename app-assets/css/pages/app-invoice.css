@@ -23,7 +23,7 @@
   width : 171px;
 }
 .invoice-view-wrapper .invoice-subtotal .invoice-calc .invoice-value {
-  color : #304156;
+  color : #201D2C;
   margin-bottom : 0;
 }
 
@@ -34,7 +34,7 @@
   margin-bottom : 1.2rem;
 }
 .invoice-view-wrapper .invoice-action-wrapper .invoice-action-btn .invoice-send-btn {
-  box-shadow : 0 2px 4px 0 rgba(90, 141, 238, 0.6);
+  box-shadow : 0 2px 4px 0 rgba(233, 206, 65, 0.6);
 }
 
 .invoice-list-wrapper .dataTables_wrapper .top {
@@ -63,32 +63,32 @@
 .invoice-list-wrapper .dataTables_wrapper .top .action-filters .dataTables_filter label input {
   width : 99%;
   height : 38px;
-  font-family : 'IBM Plex Sans', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
   padding-left : 2rem;
   font-size : 1rem;
 }
 .invoice-list-wrapper .dataTables_wrapper .top .action-filters .dataTables_filter label input::-webkit-input-placeholder {
-  font-family : 'IBM Plex Sans', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
   color : #828D99;
   font-size : 1rem;
 }
 .invoice-list-wrapper .dataTables_wrapper .top .action-filters .dataTables_filter label input::-moz-placeholder {
-  font-family : 'IBM Plex Sans', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
   color : #828D99;
   font-size : 1rem;
 }
 .invoice-list-wrapper .dataTables_wrapper .top .action-filters .dataTables_filter label input:-ms-input-placeholder {
-  font-family : 'IBM Plex Sans', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
   color : #828D99;
   font-size : 1rem;
 }
 .invoice-list-wrapper .dataTables_wrapper .top .action-filters .dataTables_filter label input::-ms-input-placeholder {
-  font-family : 'IBM Plex Sans', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
   color : #828D99;
   font-size : 1rem;
 }
 .invoice-list-wrapper .dataTables_wrapper .top .action-filters .dataTables_filter label input::placeholder {
-  font-family : 'IBM Plex Sans', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
   color : #828D99;
   font-size : 1rem;
 }
@@ -166,7 +166,7 @@
           transform : rotate(-45deg);
   height : 0.4rem;
   width : 0.8rem;
-  border-color : #5A8DEE;
+  border-color : #E9CE41;
   border-radius : 0;
   border-width : 2px;
   top : 6px;
@@ -199,7 +199,7 @@
 }
 
 .invoice-edit-wrapper .invoice-item-title {
-  color : #475F7B;
+  color : #626568;
   font-weight : 500;
 }
 
@@ -220,27 +220,27 @@
 }
 
 .invoice-edit-wrapper .invoice-subtotal-value {
-  color : #304156;
+  color : #201D2C;
 }
 
 .invoice-edit-wrapper .invoice-subtotal-title {
-  color : #727E8C;
+  color : #3D3D3D;
 }
 
 .invoice-edit-wrapper .subtotal-preview-btn {
-  box-shadow : 0 2px 4px 0 rgba(90, 141, 238, 0.4);
+  box-shadow : 0 2px 4px 0 rgba(233, 206, 65, 0.4);
 }
 
 .invoice-edit-wrapper .invoice-action-wrapper {
   background-color : #FAFBFB;
 }
 .invoice-edit-wrapper .invoice-action-wrapper .invoice-action-btn .invoice-send-btn {
-  box-shadow : 0 2px 4px 0 rgba(90, 141, 238, 0.6);
+  box-shadow : 0 2px 4px 0 rgba(233, 206, 65, 0.6);
 }
 
 .invoice-edit-wrapper .invoice-terms .invoice-terms-title {
-  font-family : 'Rubik', Helvetica, Arial, serif;
-  color : #475F7B;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
+  color : #626568;
 }
 
 @media screen and (max-width: 1290px) {

@@ -531,13 +531,13 @@ body {
 
     // buttons
     .btn {
-      color: $theme-dark-text-color;
+      //color: $theme-dark-text-color;
       &.btn-outline-dark {
         border-color: $gray-700 !important;
         color: $gray-600 !important;
       }
       &.btn-white {
-        color: $body-color;
+        //color: $body-color;
       }
       span {
         color: inherit !important;
@@ -546,7 +546,7 @@ body {
         color: $theme-dark-text-color !important;
       }
       &[class*="btn-"] {
-        color: $white !important;
+        //color: $white ;
         &.dropdown-toggle {
           color: $white !important;
         }

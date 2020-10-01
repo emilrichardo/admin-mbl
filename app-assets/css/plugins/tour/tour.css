@@ -12,13 +12,13 @@
 }
 .tippy-popper .tippy-tooltip .tippy-arrow {
   /* border-color tippy arrow */
-  border-bottom-color : #5A8DEE;
+  border-bottom-color : #E9CE41;
   -webkit-transform : scale(1.5) !important;
       -ms-transform : scale(1.5) !important;
           transform : scale(1.5) !important;
 }
 .tippy-popper .tippy-tooltip .tippy-content .shepherd-content {
-  background-color : #5A8DEE;
+  background-color : #E9CE41;
   padding : 1.3rem 1rem;
   border-radius : 0.5rem;
 }
@@ -50,7 +50,7 @@
   background-color : #E2ECFF !important;
   border-radius : 6px;
   padding : 0.7rem 2rem;
-  color : #5A8DEE;
+  color : #E9CE41;
   margin : 0 5px;
 }
 .tippy-popper .tippy-tooltip .tippy-content .shepherd-content .shepherd-footer .shepherd-buttons .shepherd-button:hover {
@@ -64,20 +64,20 @@
 /*  For border-color on placement */
 .tippy-popper[x-placement='top'] .tippy-arrow {
   border-color : transparent;
-  border-top-color : #5A8DEE;
+  border-top-color : #E9CE41;
 }
 
 .tippy-popper[x-placement='bottom'] .tippy-arrow {
   border-color : transparent;
-  border-bottom-color : #5A8DEE;
+  border-bottom-color : #E9CE41;
 }
 
 .tippy-popper[x-placement='right'] .tippy-arrow {
   border-color : transparent;
-  border-right-color : #5A8DEE;
+  border-right-color : #E9CE41;
 }
 
 .tippy-popper[x-placement='left'] .tippy-arrow {
   border-color : transparent;
-  border-left-color : #5A8DEE;
+  border-left-color : #E9CE41;
 }

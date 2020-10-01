@@ -13,8 +13,8 @@
 .kanban-container .kanban-board .kanban-board-header {
   /* kanban-header */
   font-size : 1.2rem;
-  font-family : 'Rubik', Helvetica, Arial, serif;
-  color : #475F7B;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
+  color : #626568;
   padding : 0 0.93rem;
   display : -webkit-box;
   display : -webkit-flex;
@@ -39,7 +39,7 @@
   width : 200px;
 }
 .kanban-container .kanban-board .kanban-board-header .kanban-title-board:hover, .kanban-container .kanban-board .kanban-board-header .kanban-title-board:focus {
-  background-color : #475F7B;
+  background-color : #626568;
   color : #FFFFFF;
   border-radius : 0.267rem;
   outline : none;
@@ -51,7 +51,7 @@
   bottom : 0;
   padding : 0.467rem 0rem;
   display : block;
-  color : #475F7B;
+  color : #626568;
   font-weight : 500;
   font-size : 0.8rem;
 }
@@ -126,7 +126,7 @@
   overflow : hidden;
 }
 .kanban-sidebar .card-header .close-icon {
-  color : #475F7B;
+  color : #626568;
   opacity : 1 !important;
 }
 .kanban-sidebar .card-header .close-icon:focus {

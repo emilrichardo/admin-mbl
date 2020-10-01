@@ -17,13 +17,13 @@
   cursor : pointer;
 }
 #widget-earnings .widget-earnings-swiper.swiper-container .swiper-slide .swiper-text {
-  font-family : 'Rubik', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
 }
 #widget-earnings .widget-earnings-swiper.swiper-container .swiper-slide.swiper-slide-active {
   /* swiper slide active */
   color : #FFFFFF;
-  background-color : #5A8DEE !important;
-  box-shadow : 0 3px 6px 0 rgba(90, 141, 238, 0.5) !important;
+  background-color : #E9CE41 !important;
+  box-shadow : 0 3px 6px 0 rgba(233, 206, 65, 0.5) !important;
 }
 
 #widget-earnings .wrapper-content {

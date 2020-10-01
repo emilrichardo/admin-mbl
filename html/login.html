@@ -41,57 +41,54 @@
 
 <!-- BEGIN: Body-->
 
-<body class="vertical-layout blank-page blank-page" data-open="click" data-menu="vertical-menu-modern" data-col="1-column" data-layout="semi-dark-layout">
+<body class="vertical-layout login-page dark-layout bg-custom  blank-page blank-page" data-open="click" data-menu="vertical-menu-modern" data-col="1-column" data-layout="semi-dark-layout">
+
+    <nav class="navbar-login">
+        <div class="container-fluid py-2 text-center">
+            <a class="navbar-brand" href="index.html">
+                <div class="brand-logo d-flex  align-items-center">
+                    <img class="logo" style="max-width: 60px;" src="../app-assets/images/logo/iso.png" />
+                    <h2 class="h4 ml-1 brand-text mb-0"> <small>My Blockchain</small> </h2>
+                </div>            
+            </a>
+        </div>
+        
+    </nav>
     <!-- BEGIN: Content-->
-    <div class="app-content content">
+    <div class="app-content">
         <div class="content-overlay"></div>
         <div class="content-wrapper">
-            <div class="content-header row">
+            <div class="content-header">
             </div>
             <div class="content-body">
                 <!-- login page start -->
-                <section id="auth-login" class="row flexbox-container">
-                    <div class="col-xl-8 col-11">
-                        <div class="card  mb-0">
-                            <div class="row m-0">
-                                <!-- left section-login -->
-                                <div class="col-md-6 col-12 px-0">
-                                    <div class="card disable-rounded-right mb-0 p-2 h-100 d-flex justify-content-center">
-                                        <div class="card-header pb-1">
-                                            <div class="card-title">
-                                                <div class="brand-login text-center">
-                                                    <img src="https://logoipsum.com/logo/logo-14.svg" alt="">
-                                                </div>
-                                                <h4 class="text-center mb-2">Login</h4>
-                                            </div>
-                                        </div>
-                                        <div class="card-content">
-                                            <div class="card-body">                                               
-                                               
-                                                <form action="index.html">
-                                                    <div class="form-group mb-50">
-                                                        <label class="text-bold-600" for="exampleInputEmail1">Username</label>
-                                                        <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username"></div>
-                                                    <div class="form-group">
-                                                        <label class="text-bold-600" for="exampleInputPassword1">Password</label>
-                                                        <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
-                                                    </div>
-                                                    <div class="form-group d-flex flex-md-row flex-column justify-content-between align-items-center">
-                                                       
-                                                        <div class="text-right"><a href="resetpass.html" class="card-link"><small>Forgot Password?</small></a></div>
-                                                    </div>
-                                                    <a href="dashboard.html" class="btn btn-primary btn-lg glow w-100 position-relative">Login<i id="icon-arrow" class="bx bx-right-arrow-alt"></i></a>
-                                                </form>
-                                                <hr>
-                                                <div class="text-center"><span class="mr-25">Don't have an account?</span><a href="auth-register.html"><span>Sign up</span></a></div>
-                                            </div>
-                                        </div>
+                <section id="auth-login" class="row justify-content-center mt-0 mt-md-3">
+                    <div class="col-md-4 col-11">
+                        <div class="card shadow-sm mb-0">
+                            <div class="card disable-rounded-right mb-0 p-2 h-100 d-flex justify-content-center">
+                                <div class="card-header pb-1">
+                                    <div class="card-title">                                       
+                                        <h4 class="h3 text-center mb-4">Login</h4>
                                     </div>
                                 </div>
-                                <!-- right section image -->
-                                <div class="col-md-6 d-md-block d-none text-center align-self-center p-3">
-                                    <div class="card-content">
-                                        <img class="img-fluid" src="../app-assets/images/pages/login.png" alt="branding logo">
+                                <div class="card-content">
+                                    <div class="card-body px-1 px-md-5">                                               
+                                       
+                                        <form action="index.html">
+                                            <div class="form-group mb-50">
+                                                <label class="text-bold-600" for="exampleInputEmail1">Username</label>
+                                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username"></div>
+                                            <div class="form-group mt-1 mb-1">
+                                                <label class="text-bold-600" for="exampleInputPassword1">Password</label>
+                                                <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
+                                            </div>
+                                            <div class="form-group text-right mb-2">                                               
+                                                <div class="text-right text-primary"><a href="resetpass.html" class="card-link"><small>Forgot Password?</small></a></div>
+                                            </div>
+                                            <a href="index.html" class="btn btn-primary btn-lg glow w-100 position-relative">Login<i id="icon-arrow" class="bx bx-right-arrow-alt"></i></a>
+                                        </form>
+                                        <hr>
+                                        <div class="text-center"><span class="mr-25">Haven’t registered? </span><a class="text-primary" href="auth-register.html">Sign up now</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -104,6 +101,9 @@
         </div>
     </div>
     <!-- END: Content-->
+    <div class="footer-login text-center mt-5">
+        <small class="text-muted">Copyright © myblockchainlife. All rights reserved.</small>
+    </div>
 
 
     <!-- BEGIN: Vendor JS-->

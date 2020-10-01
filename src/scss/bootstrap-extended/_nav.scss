@@ -4,6 +4,18 @@
   // common style for nav
   &.nav-tabs,
   &.nav-pills {
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    &.underline{
+      .active{
+        background-color: transparent;
+        color: $gray-800;
+        border-bottom: solid 6px $primary;
+        border-radius: 0;
+      }
+    }
+    
     // nav-item
     .nav-item {
       margin-right: 0.8rem;
@@ -22,6 +34,8 @@
       // nav-link
       .nav-link {
         border-radius: $nav-pills-border-radius;
+        padding: 1rem 2.33rem;
+        color: $gray-800;
         &.disabled {
           opacity: 0.5;
         }
@@ -35,13 +49,19 @@
         }
         // nav-link active style
         &.active {
-          box-shadow: 0 2px 4px 0 rgba($primary, 0.5);
+          //background-color: transparent;
+          //color: $gray-800;
+         // border-bottom: solid 6px $primary;
+          //border-radius: 0;
+          
           // nav-link active hover
           &:hover {
-            color: $white;
+           
+           
           }
         }
       }
+     
     }
   }
   // specific style for nav-tabs

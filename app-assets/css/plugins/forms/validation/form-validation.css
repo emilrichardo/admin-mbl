@@ -21,7 +21,7 @@
   list-style-type : none;
   font-size : 0.875rem;
   padding-top : 0.2rem;
-  font-family : 'IBM Plex Sans', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
 }
 .form-group .help-block ul li::before {
   content : '\eb1b';
