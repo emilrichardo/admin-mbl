@@ -69,23 +69,23 @@
 }
 .wizard .steps ul li.current a {
   /* current step */
-  color : #F8CD56;
+  color : #E9CE41;
   cursor : default;
 }
 .wizard .steps ul li.current::before {
-  background-color : #F8CD56;
+  background-color : #E9CE41;
 }
 .wizard .steps ul li.current:after {
-  background-color : #EDEDED;
+  background-color : #EAE8E8;
 }
 .wizard .steps ul li.current ~ li a {
   color : #828D99;
 }
 .wizard .steps ul li.current ~ li:before {
-  background-color : #EDEDED;
+  background-color : #EAE8E8;
 }
 .wizard .steps ul li.current ~ li:after {
-  background-color : #EDEDED;
+  background-color : #EAE8E8;
 }
 .wizard .steps ul li.disabled a {
   /* disabled step */
@@ -158,7 +158,7 @@
 }
 .wizard.vertical .steps ul li a i + span {
   font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
-  color : #475F7B;
+  color : #323438;
 }
 .wizard.vertical .steps ul li a .number {
   /* step indicator number */

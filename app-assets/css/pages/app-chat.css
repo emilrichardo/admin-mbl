@@ -96,7 +96,7 @@
   background : #F2F4F4;
 }
 .chat-application .chat-sidebar .chat-sidebar-list-wrapper li.active {
-  background : rgba(248, 205, 86, 0.2);
+  background : rgba(233, 206, 65, 0.2);
 }
 .chat-application .chat-sidebar .chat-sidebar-list-wrapper li img {
   border : 2px solid #FFFFFF;
@@ -176,9 +176,9 @@
   clear : both;
   word-break : break-word;
   color : #FFFFFF;
-  background : #F8CD56;
+  background : #E9CE41;
   border-radius : 0.267rem;
-  box-shadow : 0 2px 4px 0 rgba(248, 205, 86, 0.6);
+  box-shadow : 0 2px 4px 0 rgba(233, 206, 65, 0.6);
 }
 .chat-application .chat-content .chat-body .chat-message p {
   margin-bottom : 0;

@@ -181,7 +181,7 @@
         &:not(.sidebar-group-active){
           > a {
             // background: $main-menu-active-bg;
-            background: rgba($primary, .15);
+            background: rgba($white, .05);
             color: $primary;
             border-radius: $border-radius;
           }

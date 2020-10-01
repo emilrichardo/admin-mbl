@@ -9,3 +9,20 @@ NOTE:
 ------
 PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
 WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.login-page {
+  overflow-x: hidden; }
+
+.bg-custom {
+  background: url("../../app-assets/images/pages/login/bg-dots.svg") fixed;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.semi-dark-layout:not(.navbar-scrolled) .header-navbar, .light-layout:not(.navbar-scrolled) .header-navbar {
+  background-color: transparent !important; }
+
+.semi-dark-layout.navbar-scrolled .header-navbar, .light-layout.navbar-scrolled .header-navbar {
+  box-shadow: rgba(25, 42, 70, 0.03) -8px 12px 5px 0px !important;
+  padding: 0 !important; }
+
+.card {
+  border-radius: 1rem; }

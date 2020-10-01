@@ -31,7 +31,7 @@
   margin-bottom : 0.25rem;
 }
 .todo-application .content-area-wrapper .sidebar .todo-sidebar .todo-app-menu .add-task .add-task-btn {
-  box-shadow : 0 2px 4px 0 rgba(248, 205, 86, 0.4);
+  box-shadow : 0 2px 4px 0 rgba(233, 206, 65, 0.4);
 }
 .todo-application .content-area-wrapper .sidebar .todo-sidebar .todo-app-menu .sidebar-menu-list {
   padding : 0 1.5rem;
@@ -41,7 +41,7 @@
 .todo-application .content-area-wrapper .sidebar .todo-sidebar .todo-app-menu .sidebar-menu-list .filter-label {
   font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
   letter-spacing : 1px;
-  color : #717171;
+  color : #605290;
 }
 .todo-application .content-area-wrapper .sidebar .todo-sidebar .todo-app-menu .sidebar-menu-list .list-group .list-group-item {
   padding : 5px 0;
@@ -50,14 +50,14 @@
   background-color : transparent;
 }
 .todo-application .content-area-wrapper .sidebar .todo-sidebar .todo-app-menu .sidebar-menu-list .list-group .list-group-item.active {
-  color : #F8CD56;
+  color : #E9CE41;
 }
 .todo-application .content-area-wrapper .sidebar .todo-sidebar .todo-app-menu .sidebar-menu-list .list-group .list-group-item.active::before {
   content : '';
   position : absolute;
   width : 2px;
   height : 30px;
-  background-color : #F8CD56;
+  background-color : #E9CE41;
   left : -23px;
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar {
@@ -90,7 +90,7 @@
   top : 0;
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar .card .card-header .dropdown-toggle {
-  color : #475F7B;
+  color : #626568;
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar .card .card-header .dropdown-toggle::after {
   display : none;
@@ -155,11 +155,11 @@
   border-radius : 2rem;
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar .select2-assign-label + .select2-container .select2-selection__rendered .select2-selection__choice span {
-  color : #475F7B !important;
+  color : #626568 !important;
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar .select2-assign-label + .select2-container .select2-selection__rendered .select2-selection__choice[title='Frontend'] {
   background-color : #E2ECFF !important;
-  color : #F8CD56 !important;
+  color : #E9CE41 !important;
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar .select2-assign-label + .select2-container .select2-selection__rendered .select2-selection__choice[title='Backend'] {
   background-color : #D2FFE8 !important;
@@ -171,7 +171,7 @@
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar .select2-assign-label + .select2-container .select2-selection__rendered .select2-selection__choice[title='Design'] {
   background-color : #FFEED9 !important;
-  color : #F8CD56 !important;
+  color : #E9CE41 !important;
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar .select2-assign-label + .select2-container .select2-selection__rendered .select2-selection__choice[title='Wireframe'] {
   background-color : #CCF5F8 !important;
@@ -190,7 +190,7 @@
   border : none;
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar .snow-container .comment-btn {
-  box-shadow : 0 2px 4px 0 rgba(248, 205, 86, 0.6);
+  box-shadow : 0 2px 4px 0 rgba(233, 206, 65, 0.6);
 }
 .todo-application .content-area-wrapper .todo-new-task-sidebar .ql-editor {
   min-height : 70px;
@@ -218,7 +218,7 @@
 }
 .todo-application .content-area-wrapper .content-right .todo-app-list-wrapper .todo-fixed-search input {
   border : 0;
-  font-family : 'IBM Plex Sans', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
 }
 .todo-application .content-area-wrapper .content-right .todo-app-list-wrapper .todo-fixed-search input:focus {
   box-shadow : none;
@@ -288,10 +288,10 @@
 }
 .todo-application .content-area-wrapper .content-right .todo-app-list-wrapper .todo-app-list .todo-task-list .todo-task-list-wrapper .todo-item .todo-title {
   font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
-  color : #475F7B;
+  color : #626568;
 }
 .todo-application .content-area-wrapper .content-right .todo-app-list-wrapper .todo-app-list .todo-task-list .todo-task-list-wrapper .todo-item .todo-item-favorite, .todo-application .content-area-wrapper .content-right .todo-app-list-wrapper .todo-app-list .todo-task-list .todo-task-list-wrapper .todo-item .todo-item-delete {
-  color : #797979;
+  color : #66579A;
 }
 .todo-application .content-area-wrapper .content-right .todo-app-list-wrapper .todo-app-list .todo-task-list .todo-task-list-wrapper li:nth-child(1) {
   -webkit-animation-delay : 0.1s;

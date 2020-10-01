@@ -64,13 +64,13 @@
   border : none;
 }
 .file-manager-application .content-area-wrapper .sidebar .app-file-sidebar .app-file-sidebar-left .list-group .list-group-item.active {
-  color : #F8CD56;
+  color : #E9CE41;
 }
 .file-manager-application .content-area-wrapper .sidebar .app-file-sidebar .app-file-sidebar-left .list-group .list-group-item.active::before {
   content : '';
   width : 2px;
   height : 30px;
-  background-color : #F8CD56;
+  background-color : #E9CE41;
   position : absolute;
   left : -26px;
 }
@@ -111,7 +111,7 @@
   padding-bottom : 0.2rem;
 }
 .file-manager-application .content-area-wrapper .sidebar .app-file-sidebar-info .nav-tabs .nav-link:active, .file-manager-application .content-area-wrapper .sidebar .app-file-sidebar-info .nav-tabs .nav-link.active {
-  color : #F8CD56 !important;
+  color : #E9CE41 !important;
 }
 .file-manager-application .content-area-wrapper .content-right {
   width : calc(100% - 300px);
@@ -152,36 +152,36 @@
 .file-manager-application .content-area-wrapper .content-right .app-file-area .app-file-content .app-file-content-logo {
   padding : 10px 6px;
   border-bottom : 1px solid #DFE3E7;
-  background-color : #FAFAFA;
+  background-color : #F6F5F5;
 }
 .file-manager-application .content-area-wrapper .content-right .app-file-area .app-file-content .app-file-content-logo img {
   margin : 25px 0;
 }
 .file-manager-application .content-area-wrapper .content-right .app-file-area .app-file-content .app-file-name, .file-manager-application .content-area-wrapper .content-right .app-file-area .app-file-content .app-file-folder-name {
-  color : #475F7B;
+  color : #626568;
   margin-bottom : 0.1rem;
 }
 .file-manager-application .content-area-wrapper .content-right .app-file-area .app-file-content .app-file-folder .app-file-folder-logo i {
-  color : #717171;
+  color : #605290;
 }
 .file-manager-application .content-area-wrapper .content-right .app-file-area .app-file-content .app-file-info {
   cursor : pointer;
 }
 .file-manager-application .content-area-wrapper .content-right .app-file-area .app-file-content .app-file-info .app-file-edit-icon {
-  color : #8B8B8B;
+  color : #796AAB;
 }
 .file-manager-application .content-area-wrapper .app-file-label {
   /* app file labels */
   font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
   letter-spacing : 1px;
   margin : 1.2rem 0 0.5rem 0;
-  color : #8B8B8B;
+  color : #796AAB;
 }
 
 .app-file-sidebar-info .widget-timeline .timeline-content {
   font-weight : 500;
   font-size : 13px;
-  color : #717171;
+  color : #605290;
 }
 
 .app-file-sidebar-info .widget-timeline .timeline-time {

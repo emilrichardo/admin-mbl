@@ -53,7 +53,7 @@
   margin-bottom : 0.8rem;
 }
 .email-application .content-area-wrapper .sidebar .email-app-sidebar .email-app-menu .form-group-compose .compose-btn {
-  box-shadow : 0 2px 4px 0 rgba(248, 205, 86, 0.6);
+  box-shadow : 0 2px 4px 0 rgba(233, 206, 65, 0.6);
   font-weight : 500;
 }
 .email-application .content-area-wrapper .sidebar .email-app-sidebar .email-app-menu .sidebar-menu-list {
@@ -63,7 +63,7 @@
   height : calc(100% - 6.4rem);
 }
 .email-application .content-area-wrapper .sidebar .email-app-sidebar .email-app-menu .sidebar-menu-list a:hover {
-  color : #596F88;
+  color : #7D8085;
 }
 .email-application .content-area-wrapper .sidebar .email-app-sidebar .email-app-menu .list-group .list-group-item {
   padding : 0.6rem 0;
@@ -72,13 +72,13 @@
   border : none;
 }
 .email-application .content-area-wrapper .sidebar .email-app-sidebar .email-app-menu .list-group .list-group-item.active {
-  color : #F8CD56;
+  color : #E9CE41;
 }
 .email-application .content-area-wrapper .sidebar .email-app-sidebar .email-app-menu .list-group .list-group-item.active::before {
   content : '';
   width : 2px;
   height : 30px;
-  background-color : #F8CD56;
+  background-color : #E9CE41;
   position : absolute;
   left : -26px;
 }
@@ -106,7 +106,7 @@
           transform : translateX(8%) translateY(1px);
 }
 .email-application .content-area-wrapper .sidebar .compose-new-mail-sidebar .card-footer .btn-send {
-  box-shadow : 0 2px 4px 0 rgba(248, 205, 86, 0.6);
+  box-shadow : 0 2px 4px 0 rgba(233, 206, 65, 0.6);
 }
 .email-application .content-area-wrapper .sidebar .compose-new-mail-sidebar .close-icon {
   position : absolute;
@@ -155,27 +155,27 @@
 }
 .email-application .content-area-wrapper .content-right .email-app-list-wrapper .email-app-list .email-action .action-right .email-fixed-search input {
   border-color : #DFE3E7;
-  font-family : 'IBM Plex Sans', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
 }
 .email-application .content-area-wrapper .content-right .email-app-list-wrapper .email-app-list .email-action .action-right .email-fixed-search input::-webkit-input-placeholder {
   font-size : 1rem;
-  font-family : 'IBM Plex Sans', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
 }
 .email-application .content-area-wrapper .content-right .email-app-list-wrapper .email-app-list .email-action .action-right .email-fixed-search input::-moz-placeholder {
   font-size : 1rem;
-  font-family : 'IBM Plex Sans', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
 }
 .email-application .content-area-wrapper .content-right .email-app-list-wrapper .email-app-list .email-action .action-right .email-fixed-search input:-ms-input-placeholder {
   font-size : 1rem;
-  font-family : 'IBM Plex Sans', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
 }
 .email-application .content-area-wrapper .content-right .email-app-list-wrapper .email-app-list .email-action .action-right .email-fixed-search input::-ms-input-placeholder {
   font-size : 1rem;
-  font-family : 'IBM Plex Sans', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
 }
 .email-application .content-area-wrapper .content-right .email-app-list-wrapper .email-app-list .email-action .action-right .email-fixed-search input::placeholder {
   font-size : 1rem;
-  font-family : 'IBM Plex Sans', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
 }
 .email-application .content-area-wrapper .content-right .email-app-list-wrapper .email-app-list .email-action .action-right .email-fixed-search .form-control-position {
   top : 3px;
@@ -20299,7 +20299,7 @@
 }
 .email-application .content-area-wrapper .content-right .email-app-list-wrapper .email-app-list .email-user-list .users-list-wrapper .user-action .favorite {
   margin-right : 0.5rem;
-  color : #8B8B8B;
+  color : #796AAB;
 }
 .email-application .content-area-wrapper .content-right .email-app-list-wrapper .email-app-list .email-user-list .users-list-wrapper .user-action .favorite i {
   font-size : 1.3rem;
@@ -20369,7 +20369,7 @@
   margin-right : 0.5rem;
 }
 .email-application .content-area-wrapper .content-right .email-app-details .email-detail-header .email-detail-title {
-  color : #475F7B;
+  color : #626568;
   font-size : 1.2rem;
   position : relative;
   top : 2px;
@@ -20417,7 +20417,7 @@
   margin : 1.8rem 0 0.5rem 0;
 }
 .email-application .content-area-wrapper .attchement-text {
-  font-family : 'IBM Plex Sans', Helvetica, Arial, serif;
+  font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
 }
 .email-application .content-area-wrapper .action-icon {
   padding : 0.35rem 0.5rem;
@@ -20439,7 +20439,7 @@
   border : none;
 }
 .email-application .content-area-wrapper .quill-wrapper .snow-container .send-btn {
-  box-shadow : 0 2px 4px 0 rgba(248, 205, 86, 0.6);
+  box-shadow : 0 2px 4px 0 rgba(233, 206, 65, 0.6);
   font-weight : 500;
   padding : 0.2rem 1rem;
 }

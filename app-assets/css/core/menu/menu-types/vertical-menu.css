@@ -60,7 +60,7 @@ body.vertical-layout.vertical-menu-modern.menu-expanded .main-menu .navigation l
   -webkit-transform : rotate(180deg);
       -ms-transform : rotate(180deg);
           transform : rotate(180deg);
-  color : #F8CD56;
+  color : #E9CE41;
 }
 
 body.vertical-layout.vertical-menu-modern.menu-expanded .footer {
@@ -96,11 +96,11 @@ body.vertical-layout.vertical-menu-modern.menu-collapsed .main-menu:not(.expande
   margin-bottom : 1.25rem !important;
 }
 body.vertical-layout.vertical-menu-modern.menu-collapsed .main-menu:not(.expanded) .navigation li.active a {
-  background : rgba(248, 205, 86, 0.1);
+  background : rgba(233, 206, 65, 0.1);
   box-shadow : none;
 }
 body.vertical-layout.vertical-menu-modern.menu-collapsed .main-menu:not(.expanded) .navigation li.menu-collapsed-open {
-  background : rgba(248, 205, 86, 0.1);
+  background : rgba(233, 206, 65, 0.1);
   border : none;
 }
 body.vertical-layout.vertical-menu-modern.menu-collapsed .main-menu .navigation {
@@ -150,7 +150,7 @@ body.vertical-layout.vertical-menu-modern.menu-collapsed .main-menu.expanded .na
   -webkit-transform : rotate(180deg);
       -ms-transform : rotate(180deg);
           transform : rotate(180deg);
-  color : #F8CD56;
+  color : #E9CE41;
 }
 body.vertical-layout.vertical-menu-modern.menu-collapsed .main-menu.expanded .navbar-header .brand-text {
   display : inline;
@@ -168,7 +168,7 @@ body.vertical-layout.vertical-menu-modern.menu-collapsed .navbar-static-top .nav
     border-right : 1px solid transparent;
   }
   body.vertical-layout.vertical-menu-modern .main-menu.menu-dark {
-    border-right : 1px solid #252525;
+    border-right : 1px solid #2A233F;
   }
   body.vertical-layout.vertical-menu-modern .footer {
     margin-left : 300px;
@@ -297,7 +297,7 @@ body.vertical-layout.vertical-menu-modern.menu-collapsed .navbar-static-top .nav
   -webkit-transform : rotate(180deg);
       -ms-transform : rotate(180deg);
           transform : rotate(180deg);
-  color : #F8CD56;
+  color : #E9CE41;
 }
 
 .vertical-overlay-menu.menu-open .main-menu {
