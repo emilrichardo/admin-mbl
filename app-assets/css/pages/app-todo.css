@@ -41,7 +41,7 @@
 .todo-application .content-area-wrapper .sidebar .todo-sidebar .todo-app-menu .sidebar-menu-list .filter-label {
   font-family : 'Nunito', sans-serif, Helvetica, Arial, serif;
   letter-spacing : 1px;
-  color : #605290;
+  color : #635A89;
 }
 .todo-application .content-area-wrapper .sidebar .todo-sidebar .todo-app-menu .sidebar-menu-list .list-group .list-group-item {
   padding : 5px 0;
@@ -291,7 +291,7 @@
   color : #626568;
 }
 .todo-application .content-area-wrapper .content-right .todo-app-list-wrapper .todo-app-list .todo-task-list .todo-task-list-wrapper .todo-item .todo-item-favorite, .todo-application .content-area-wrapper .content-right .todo-app-list-wrapper .todo-app-list .todo-task-list .todo-task-list-wrapper .todo-item .todo-item-delete {
-  color : #66579A;
+  color : #6A6092;
 }
 .todo-application .content-area-wrapper .content-right .todo-app-list-wrapper .todo-app-list .todo-task-list .todo-task-list-wrapper li:nth-child(1) {
   -webkit-animation-delay : 0.1s;

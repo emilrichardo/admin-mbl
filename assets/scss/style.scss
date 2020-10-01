@@ -37,7 +37,7 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
 			background-color: transparent!important;
 		}
 	}
-	&.navbar-scrolled{
+	&.navbar-scrolled, &.page-scrolled{
 		.header-navbar{
 			box-shadow: rgba(25, 42, 70, 0.03) -8px 12px 5px 0px!important;
 			padding: 0!important;
@@ -52,4 +52,16 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
 
 .card{
 border-radius: 1rem;
+}
+
+
+//temview
+.node-tags-badge-treeview{
+	color: rgb(65, 65, 65)!important;
+}
+
+.node-tags-badge-treeview {
+	&.node-selected{
+		background-color: #eee!important;
+	}
 }

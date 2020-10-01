@@ -23,9 +23,15 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
 .semi-dark-layout:not(.navbar-scrolled) .header-navbar, .light-layout:not(.navbar-scrolled) .header-navbar {
   background-color: transparent !important; }
 
-.semi-dark-layout.navbar-scrolled .header-navbar, .light-layout.navbar-scrolled .header-navbar {
+.semi-dark-layout.navbar-scrolled .header-navbar, .semi-dark-layout.page-scrolled .header-navbar, .light-layout.navbar-scrolled .header-navbar, .light-layout.page-scrolled .header-navbar {
   box-shadow: rgba(25, 42, 70, 0.03) -8px 12px 5px 0px !important;
   padding: 0 !important; }
 
 .card {
   border-radius: 1rem; }
+
+.node-tags-badge-treeview {
+  color: #414141 !important; }
+
+.node-tags-badge-treeview.node-selected {
+  background-color: #eee !important; }

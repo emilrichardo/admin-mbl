@@ -1,11 +1,11 @@
 /* Semi Dark Layout */
 /* ---------------- */
 body.semi-dark-layout .main-menu {
-  background-color : #14111E !important;
+  background-color : #15131D !important;
 }
 body.semi-dark-layout .main-menu .shadow-bottom {
-  background : -webkit-linear-gradient(top, rgba(20, 17, 30, 0.73) 44%, rgba(20, 17, 30, 0.44) 73%, rgba(20, 17, 30, 0));
-  background :         linear-gradient(180deg, rgba(20, 17, 30, 0.73) 44%, rgba(20, 17, 30, 0.44) 73%, rgba(20, 17, 30, 0));
+  background : -webkit-linear-gradient(top, rgba(21, 19, 29, 0.73) 44%, rgba(21, 19, 29, 0.44) 73%, rgba(21, 19, 29, 0));
+  background :         linear-gradient(180deg, rgba(21, 19, 29, 0.73) 44%, rgba(21, 19, 29, 0.44) 73%, rgba(21, 19, 29, 0));
 }
 body.semi-dark-layout .main-menu .navbar-header {
   z-index : 3;
@@ -30,8 +30,8 @@ body.semi-dark-layout .main-menu-content .navigation-main .active .menu-title, b
   color : #E9CE41;
 }
 body.semi-dark-layout .main-menu-content .navigation-main .sidebar-group-active {
-  background : #1B1728 !important;
+  background : #1C1926 !important;
 }
 body.semi-dark-layout .main-menu-content .navigation-main .sidebar-group-active .menu-content .active {
-  background-color : #1F1A2E;
+  background-color : #201D2C;
 }

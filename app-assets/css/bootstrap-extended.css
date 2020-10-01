@@ -2258,6 +2258,12 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
   font-size : 1.2rem;
   font-weight : 600;
 }
+.nav.nav-tabs.underline .active, .nav.nav-pills.underline .active {
+  background-color : transparent;
+  color : #323438;
+  border-bottom : solid 6px #E9CE41;
+  border-radius : 0;
+}
 .nav.nav-tabs .nav-item, .nav.nav-pills .nav-item {
   margin-right : 0.8rem;
 }
@@ -2270,6 +2276,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 .nav.nav-tabs .nav-item .nav-link, .nav.nav-pills .nav-item .nav-link {
   border-radius : 0.267rem;
   padding : 1rem 2.33rem;
+  color : #323438;
 }
 .nav.nav-tabs .nav-item .nav-link.disabled, .nav.nav-pills .nav-item .nav-link.disabled {
   opacity : 0.5;
@@ -2279,12 +2286,6 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 .nav.nav-tabs .nav-item .nav-link i, .nav.nav-pills .nav-item .nav-link i {
   margin-right : 0.2rem;
-}
-.nav.nav-tabs .nav-item .nav-link.active, .nav.nav-pills .nav-item .nav-link.active {
-  background-color : transparent;
-  color : #323438;
-  border-bottom : solid 6px #E9CE41;
-  border-radius : 0;
 }
 
 .nav.nav-tabs {
