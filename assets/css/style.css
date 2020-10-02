@@ -52,9 +52,11 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
     font-size: clamp(12px, 1vw, 42px); }
   .card-teamview h6 {
     font-size: clamp(8px, 0.7vw, 32px); }
+  .card-teamview:not(.last-item):before, .card-teamview:not(.last-item):after {
+    display: inline; }
   .card-teamview:before {
     content: "";
-    display: inline;
+    display: none;
     height: 15px;
     width: 1px;
     background-color: #000;
@@ -63,14 +65,15 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
     left: calc(50% - 1px); }
   .card-teamview:after {
     content: "";
-    display: inline;
+    display: none;
     height: 15px;
     width: 50%;
     border: #000 solid 1px;
     border-bottom: transparent;
     position: absolute;
     bottom: calc(-15px * 2);
-    left: calc(50% / 2); }
+    left: calc(50% / 2);
+    border-radius: 5px 5px 0px 0px; }
   .card-teamview .icon-info {
     display: none;
     margin-bottom: 5px; }

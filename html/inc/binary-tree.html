@@ -1,15 +1,32 @@
   
+  <style>
+    
+      @media (max-width: 768px){
+        .tree-content{
+                overflow: auto;
+                /* border-radius: 15px;;
+                box-shadow:inset 0 0 5px 5px rgba(0,0,0,.02);
+                background-color: rgba(0,0,0,.02); */
+
+        }
+
+            .binary-tree{
+                min-width: 400px;
+                max-height: 400px;
+            }         
+      } 
+  </style>
   <div class="binary-tree">
     <!-- parent card -->
     <div w3-include-html="inc/binary-card.html"></div>
 
     <!-- level-2 -->
     <div class="level-2 row justify-content-between no-gutters">
-        <div class="col-6">
+        <div class="col-6 lv2-l">
             <div w3-include-html="inc/binary-card.html"></div>
             <!-- level-3 -->
             <div class="level-3 row justify-content-between no-gutters">
-                <div class="col-6">
+                <div class="col-6 lv3-left">
                     <div w3-include-html="inc/binary-card.html"></div>
                     <!-- level-4 -->
                     <div class="level-4 row justify-content-between no-gutters">
@@ -18,18 +35,34 @@
                         </div>
                         <div class="col-6">
                             <div w3-include-html="inc/binary-card.html"></div>
+                            
                         </div>
                     </div> <!-- level-4 -->
                 </div>
-                <div class="col-6">
+                <div class="col-6 lv3-right">
                     <div w3-include-html="inc/binary-card.html"></div>
+                    <!-- level-4 -->
+                    <div class="level-4 row justify-content-between no-gutters">
+                        <div class="col-6">
+                            <div class="card bg-light card-teamview last-item add-user h-100 d-flex justify-content-center align-items-center">
+                               <a href="#" class="btn btn-white"><i class="bx bx-plus-circle"></i></a> 
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card bg-light card-teamview last-item add-user h-100 d-flex justify-content-center align-items-center">
+                                <a href="#" class="btn btn-white"><i class="bx bx-plus-circle"></i></a> 
+                             </div>
+                        </div>
+                    </div> <!-- level-4 -->
+
                 </div>
             </div> <!-- level-3 -->
         </div>
-        <div class="col-6">
+        <!-- level 2 right -->
+        <div class="col-6 lv2-r">
             <div w3-include-html="inc/binary-card.html"></div>
             <!-- level-3 -->
-            <div class="level-3 row justify-content-between no-gutters">
+            <div class="level-3 row justify-content-between align-items-stretch no-gutters">
                 <div class="col-6">
                     <div w3-include-html="inc/binary-card.html"></div>
                     <!-- level-4 -->
@@ -52,7 +85,9 @@
                     </div> <!-- level-4 -->
                 </div>
                 <div class="col-6">
-                    <div w3-include-html="inc/binary-card.html"></div>
+                    <div class="card bg-light py-3 card-teamview last-item add-user d-flex justify-content-center align-items-center">
+                        <a href="#" class="btn btn-white"><i class="bx bx-plus-circle"></i></a> 
+                     </div>
                 </div>
             </div> <!-- level-3 -->
         </div>

@@ -104,10 +104,16 @@ $border-line:1px;
 		font-size: clamp(8px, .7vw, 32px);
 	}
 
+	&:not(.last-item){
+		&:before, &:after{
+			display: inline;
+		}	
+	}
+
 
 	&:before{
 		content: "";
-		display: inline;
+		display: none;
 		height: $v-line-height;
 		width: $v-line-width;
 		background-color:#000;
@@ -118,7 +124,7 @@ $border-line:1px;
 
 	&:after{
 		content: "";
-		display: inline;
+		display: none;
 		height: $v-line-height;
 		width: $h-line-width;
 		border:$line-color solid $border-line;
@@ -126,6 +132,7 @@ $border-line:1px;
 		position: absolute;
 		bottom: calc(#{-$v-line-height} * 2) ;
 		left: calc(#{$h-line-width} / 2);
+		border-radius: 5px 5px 0px 0px;
 	}
 
 	.icon-info{
