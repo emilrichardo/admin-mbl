@@ -47,6 +47,12 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
 	
 }
 
+.no-header{
+.header-navbar,.header-navbar-shadow {
+	//display: none;
+}
+}
+
 
 //Cards
 
@@ -65,3 +71,92 @@ border-radius: 1rem;
 		background-color: #eee!important;
 	}
 }
+
+$line-color: #000;
+$v-line-height: 15px;
+$v-line-width: 1px;
+$h-line-width: 50%;
+$border-line:1px;
+
+
+.card-teamview{
+	position: relative;
+	margin: $v-line-height .5vw;
+
+	.card-header, .card-footer{
+		padding: 10px 1.6vw;
+	}
+	.card-footer{
+		display: flex;
+	}
+	.img-plan{
+		max-width: 60px;
+		margin: 10px auto;
+	}
+
+	h4{
+		font-size: clamp(14px, 1.8vw, 62px);
+	}
+	h5{
+		font-size: clamp(12px, 1vw, 42px);
+	}
+	h6{
+		font-size: clamp(8px, .7vw, 32px);
+	}
+
+
+	&:before{
+		content: "";
+		display: inline;
+		height: $v-line-height;
+		width: $v-line-width;
+		background-color:#000;
+		position: absolute;
+		bottom: -$v-line-height;
+		left: calc(50% - #{$v-line-width});
+	}
+
+	&:after{
+		content: "";
+		display: inline;
+		height: $v-line-height;
+		width: $h-line-width;
+		border:$line-color solid $border-line;
+		border-bottom: transparent;
+		position: absolute;
+		bottom: calc(#{-$v-line-height} * 2) ;
+		left: calc(#{$h-line-width} / 2);
+	}
+
+	.icon-info{
+		display: none;
+		margin-bottom: 5px;
+		i{
+			color: rgba(151, 151, 151, 0.8);
+		}
+		
+	}
+}
+
+.level-3 {
+	.icon-info{
+		display: block;
+	}
+	.card-footer, h5 {
+		display: none;
+	}
+	.img-plan{
+
+	}
+
+	h4{
+		display: inline-block;
+		overflow: hidden;
+		white-space: nowrap;
+		width: 100%;
+		font-size: clamp(12px, 1.2vw, 32px);
+
+	}
+	
+}
+

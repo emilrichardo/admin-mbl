@@ -35,3 +35,57 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
 
 .node-tags-badge-treeview.node-selected {
   background-color: #eee !important; }
+
+.card-teamview {
+  position: relative;
+  margin: 15px 0.5vw; }
+  .card-teamview .card-header, .card-teamview .card-footer {
+    padding: 10px 1.6vw; }
+  .card-teamview .card-footer {
+    display: flex; }
+  .card-teamview .img-plan {
+    max-width: 60px;
+    margin: 10px auto; }
+  .card-teamview h4 {
+    font-size: clamp(14px, 1.8vw, 62px); }
+  .card-teamview h5 {
+    font-size: clamp(12px, 1vw, 42px); }
+  .card-teamview h6 {
+    font-size: clamp(8px, 0.7vw, 32px); }
+  .card-teamview:before {
+    content: "";
+    display: inline;
+    height: 15px;
+    width: 1px;
+    background-color: #000;
+    position: absolute;
+    bottom: -15px;
+    left: calc(50% - 1px); }
+  .card-teamview:after {
+    content: "";
+    display: inline;
+    height: 15px;
+    width: 50%;
+    border: #000 solid 1px;
+    border-bottom: transparent;
+    position: absolute;
+    bottom: calc(-15px * 2);
+    left: calc(50% / 2); }
+  .card-teamview .icon-info {
+    display: none;
+    margin-bottom: 5px; }
+    .card-teamview .icon-info i {
+      color: rgba(151, 151, 151, 0.8); }
+
+.level-3 .icon-info {
+  display: block; }
+
+.level-3 .card-footer, .level-3 h5 {
+  display: none; }
+
+.level-3 h4 {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  font-size: clamp(12px, 1.2vw, 32px); }
