@@ -2258,6 +2258,10 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
   font-size : 1.2rem;
   font-weight : 600;
 }
+.nav.nav-tabs.underline .nav-link, .nav.nav-pills.underline .nav-link {
+  box-shadow : none !important;
+  border-radius : 0 !important;
+}
 .nav.nav-tabs.underline .active, .nav.nav-pills.underline .active {
   background-color : transparent;
   color : #323438;
@@ -2277,6 +2281,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
   border-radius : 0.267rem;
   padding : 1rem 2.33rem;
   color : #323438;
+  box-shadow : 0 5px 8px 0 rgba(21, 19, 29, 0.05);
 }
 .nav.nav-tabs .nav-item .nav-link.disabled, .nav.nav-pills .nav-item .nav-link.disabled {
   opacity : 0.5;
