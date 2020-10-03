@@ -10,6 +10,9 @@ NOTE:
 PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
 WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
 
+:root{
+	--white: #fff;
+}
 
 .btn-primary{
 	
@@ -79,9 +82,29 @@ $h-line-width: 50%;
 $border-line:1px;
 
 
+
+	.tree-content{
+			overflow: auto;
+			 border-radius: 15px;;
+                box-shadow:inset 0 0 5px 5px rgba(0,0,0,.02);
+                background-color: rgba(0,0,0,.02); 
+	}
+
+		.binary-tree{
+			min-width: 400px;
+			max-height: 600px;
+		}         
+ 
+
+
+
 .card-teamview{
 	position: relative;
 	margin: $v-line-height .5vw;
+	&:hover{
+		background-color: var(--white);
+		transform: scale(1.02); 
+	}
 
 	.card-header, .card-footer{
 		padding: 10px 1.6vw;
@@ -104,7 +127,7 @@ $border-line:1px;
 		font-size: clamp(8px, .7vw, 32px);
 	}
 
-	&:not(.last-item){
+	&:not(.last-item) {
 		&:before, &:after{
 			display: inline;
 		}	
@@ -143,27 +166,105 @@ $border-line:1px;
 		}
 		
 	}
+
+	
+
+   
 }
 
-.level-3 {
-	.icon-info{
-		display: block;
-	}
-	.card-footer, h5 {
-		display: none;
-	}
-	.img-plan{
 
+
+
+.level-3 {	
+	@media (max-width: 768px){
+		.icon-info{
+			display: block;
+		}
+		.card-footer, h5 {
+			display: none;
+		}
+	}
+	
+	.img-plan{
+		max-width: 30px;
+		margin: 10px auto;
 	}
 
 	h4{
 		display: inline-block;
 		overflow: hidden;
 		white-space: nowrap;
-		width: 100%;
+		width: 90%;
 		font-size: clamp(12px, 1.2vw, 32px);
+		text-overflow: ellipsis;
+
+  
 
 	}
 	
 }
 
+.level-4 {
+	.icon-info{
+		display: block;
+	}
+	.card-footer, h5 {
+		display: none;
+	}
+
+	.add-user{
+		padding: 0;
+		background-color: transparent;
+		border: none;
+		box-shadow: none;
+	}
+}
+
+
+.add-user{
+	background-color:  #FBFBFB;
+	border: 1px solid #DBDBDB;
+	padding: 2vw 2vw;
+	margin: $v-line-height auto;
+	
+	.btn{
+		padding-left: 1.5vw;
+		padding-right: 1.5vw;
+		margin: 0 auto;
+		
+	}
+   
+}
+
+.level-5 {
+
+	.img-plan{
+		max-width: 20px;
+		margin: 10px auto;
+	}
+	.text-plan{
+		display: none;
+	}
+	.card-teamview{
+		margin: 0;
+		padding: 0;
+		background-color: transparent;
+		box-shadow: none;
+		.card-header, .card-footer{
+			padding: 0;
+		}
+
+		
+	}
+
+	.btn {
+		padding-left: .5vw;
+		padding-right: .5vw;
+	}
+}
+
+.last-item .card-teamview, .level-5 .card-teamview{
+	&:before, &:after{
+		display: none;
+	}	
+}
