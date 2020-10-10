@@ -41,6 +41,12 @@ $primary: $yellow;
 
 
 
+@mixin content($color-default, $color-main) {
+    background: $color-default;
+    color: $color-main;
+  }
+  
+
 
 // Spacing
 //

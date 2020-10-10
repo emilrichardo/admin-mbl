@@ -10,8 +10,40 @@ NOTE:
 PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
 WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
 
+
 :root{
-	--white: #fff;
+    --white : #fff;
+    --main-color-1 : rgb(28, 202, 144);
+}
+
+
+
+
+.theme-green{
+
+	.primary{}
+
+	.btn-primary.btn-primary,
+	.badge-primary,
+	.progress-bar-primary .progress-bar
+	{
+        background-color: var(--main-color-1)!important;
+        color: var(--white);
+	}
+	
+	.main-menu.menu-dark .navigation > li.active:not(.sidebar-group-active) > a, 
+	.primary,
+	.main-menu.menu-dark .navigation > li.nav-item.open > a i, .main-menu.menu-dark .navigation > li.nav-item.sidebar-group-active > a i,
+	 .main-menu .navigation li.open > a:not(.mm-next):after,
+	 .main-menu-content .navigation-main .active i,
+	
+	{
+		color: var(--main-color-1)!important;
+	}
+
+	.progress-bar{
+		box-shadow: 0 2px 6px 0 rgba(#{var(--main-color-1)}, 0.6)
+	}
 }
 
 .btn-primary{
